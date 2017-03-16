@@ -4,7 +4,7 @@
 set -e
 
 scriptdir=$(cd $(dirname $0) && pwd)
-fwdir=$scriptdir/../../../contrib/dev/drm2/amdgpukmsfw
+fwdir=$scriptdir/../amdgpukmsfw-files
 
 for dir in $scriptdir/*; do
 	if [ ! -d $dir ]; then
