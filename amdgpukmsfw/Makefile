@@ -37,6 +37,7 @@ SUBDIR=									\
 	polaris10_uvd							\
 	polaris10_vce							\
 	polaris11_ce							\
+	polaris11_k_smc							\
 	polaris11_mc							\
 	polaris11_me							\
 	polaris11_mec							\
@@ -49,6 +50,18 @@ SUBDIR=									\
 	polaris11_smc_sk						\
 	polaris11_uvd							\
 	polaris11_vce							\
+	polaris12_ce							\
+	polaris12_mc							\
+	polaris12_me							\
+	polaris12_mec							\
+	polaris12_mec2							\
+	polaris12_pfp							\
+	polaris12_rlc							\
+	polaris12_sdma							\
+	polaris12_sdma1							\
+	polaris12_smc							\
+	polaris12_uvd							\
+	polaris12_vce							\
 	stoney_ce							\
 	stoney_me							\
 	stoney_mec							\
@@ -58,6 +71,7 @@ SUBDIR=									\
 	stoney_uvd							\
 	stoney_vce							\
 	tonga_ce							\
+	tonga_k_smc							\
 	tonga_mc							\
 	tonga_me							\
 	tonga_mec							\
@@ -70,6 +84,7 @@ SUBDIR=									\
 	tonga_uvd							\
 	tonga_vce							\
 	topaz_ce							\
+	topaz_k_smc							\
 	topaz_mc							\
 	topaz_me							\
 	topaz_mec							\
