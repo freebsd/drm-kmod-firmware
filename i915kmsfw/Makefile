@@ -1,6 +1,8 @@
 # $FreeBSD$
 
 SUBDIR=									\
+	kblguc								\
+	kbldmc								\
 	sklguc								\
 	skldmc
 
