@@ -24,6 +24,7 @@ SUBDIR=									\
 	fiji_uvd							\
 	fiji_vce							\
 	polaris10_ce							\
+	polaris10_k_smc							\
 	polaris10_mc							\
 	polaris10_me							\
 	polaris10_mec							\
@@ -93,6 +94,21 @@ SUBDIR=									\
 	topaz_rlc							\
 	topaz_sdma							\
 	topaz_sdma1							\
-	topaz_smc
+	topaz_smc							\
+	vega10_acg_smc							\
+	vega10_asd							\
+	vega10_ce							\
+	vega10_gpu_info							\
+	vega10_me							\
+	vega10_mec							\
+	vega10_mec2							\
+	vega10_pfp							\
+	vega10_rlc							\
+	vega10_sdma							\
+	vega10_sdma1							\
+	vega10_smc							\
+	vega10_sos							\
+	vega10_uvd							\
+	vega10_vce
 
 .include <bsd.subdir.mk>
