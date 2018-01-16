@@ -1,9 +1,16 @@
 # $FreeBSD$
 
-SUBDIR=									\
-	kblguc								\
-	kbldmc								\
-	sklguc								\
-	skldmc
+SUBDIR= \
+	bxtdmc \
+	bxtguc \
+	bxthuc \
+	cnldmc \
+	glkdmc \
+	kbldmc \
+	kblguc \
+	kblhuc \
+	sklguc \
+	sklhuc \
+	skldmc 
 
 .include <bsd.subdir.mk>
