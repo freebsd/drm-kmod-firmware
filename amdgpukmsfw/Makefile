@@ -136,4 +136,6 @@ SUBDIR=									\
 	vega10_uvd							\
 	vega10_vce
 
+SUBDIR_PARALLEL=
+
 .include <bsd.subdir.mk>

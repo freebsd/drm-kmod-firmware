@@ -247,4 +247,6 @@ SUBDIR=									\
 	verde_rlc							\
 	verde_smc
 
+SUBDIR_PARALLEL=
+
 .include <bsd.subdir.mk>

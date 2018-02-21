@@ -14,4 +14,6 @@ SUBDIR = \
 	${_amdgpukmsfw} \
 	${_radeonkmsfw}
 
+SUBDIR_PARALLEL=
+
 .include <bsd.subdir.mk>

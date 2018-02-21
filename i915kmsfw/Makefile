@@ -13,4 +13,6 @@ SUBDIR= \
 	sklhuc \
 	skldmc 
 
+SUBDIR_PARALLEL=
+
 .include <bsd.subdir.mk>
