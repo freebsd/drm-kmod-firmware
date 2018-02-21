@@ -24,12 +24,17 @@ SUBDIR=									\
 	fiji_uvd							\
 	fiji_vce							\
 	polaris10_ce							\
+	polaris10_ce_2							\
 	polaris10_k_smc							\
 	polaris10_mc							\
 	polaris10_me							\
+	polaris10_me_2							\
 	polaris10_mec							\
 	polaris10_mec2							\
+	polaris10_mec2_2						\
+	polaris10_mec_2							\
 	polaris10_pfp							\
+	polaris10_pfp_2							\
 	polaris10_rlc							\
 	polaris10_sdma							\
 	polaris10_sdma1							\
@@ -38,12 +43,17 @@ SUBDIR=									\
 	polaris10_uvd							\
 	polaris10_vce							\
 	polaris11_ce							\
+	polaris11_ce_2							\
 	polaris11_k_smc							\
 	polaris11_mc							\
 	polaris11_me							\
+	polaris11_me_2							\
 	polaris11_mec							\
 	polaris11_mec2							\
+	polaris11_mec2_2						\
+	polaris11_mec_2							\
 	polaris11_pfp							\
+	polaris11_pfp_2							\
 	polaris11_rlc							\
 	polaris11_sdma							\
 	polaris11_sdma1							\
@@ -52,17 +62,32 @@ SUBDIR=									\
 	polaris11_uvd							\
 	polaris11_vce							\
 	polaris12_ce							\
+	polaris12_ce_2							\
 	polaris12_mc							\
 	polaris12_me							\
+	polaris12_me_2							\
 	polaris12_mec							\
 	polaris12_mec2							\
+	polaris12_mec2_2						\
+	polaris12_mec_2							\
 	polaris12_pfp							\
+	polaris12_pfp_2							\
 	polaris12_rlc							\
 	polaris12_sdma							\
 	polaris12_sdma1							\
 	polaris12_smc							\
 	polaris12_uvd							\
 	polaris12_vce							\
+	raven_asd							\
+	raven_ce							\
+	raven_gpu_info							\
+	raven_me							\
+	raven_mec							\
+	raven_mec2							\
+	raven_pfp							\
+	raven_rlc							\
+	raven_sdma							\
+	raven_vcn							\
 	stoney_ce							\
 	stoney_me							\
 	stoney_mec							\
