@@ -1,6 +1,6 @@
 # $FreeBSD$
 
-SYSDIR?=${.CURDIR}/../..
+SYSDIR?=/usr/src/sys
 .include "${SYSDIR}/conf/kern.opts.mk"
 
 .if ${MACHINE_CPUARCH} == "amd64"
