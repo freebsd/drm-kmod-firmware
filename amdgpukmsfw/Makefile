@@ -1,6 +1,19 @@
 # $FreeBSD$
 
 SUBDIR=									\
+	banks_k_2_smc							\
+	bonaire_ce							\
+	bonaire_k_smc							\
+	bonaire_mc							\
+	bonaire_me							\
+	bonaire_mec							\
+	bonaire_pfp							\
+	bonaire_rlc							\
+	bonaire_sdma							\
+	bonaire_sdma1							\
+	bonaire_smc							\
+	bonaire_uvd							\
+	bonaire_vce							\
 	carrizo_ce							\
 	carrizo_me							\
 	carrizo_mec							\
@@ -23,6 +36,67 @@ SUBDIR=									\
 	fiji_smc							\
 	fiji_uvd							\
 	fiji_vce							\
+	hainan_ce							\
+	hainan_k_smc							\
+	hainan_mc							\
+	hainan_me							\
+	hainan_pfp							\
+	hainan_rlc							\
+	hainan_smc							\
+	hawaii_ce							\
+	hawaii_k_smc							\
+	hawaii_mc							\
+	hawaii_me							\
+	hawaii_mec							\
+	hawaii_pfp							\
+	hawaii_rlc							\
+	hawaii_sdma							\
+	hawaii_sdma1							\
+	hawaii_smc							\
+	hawaii_uvd							\
+	hawaii_vce							\
+	kabini_ce							\
+	kabini_me							\
+	kabini_mec							\
+	kabini_pfp							\
+	kabini_rlc							\
+	kabini_sdma							\
+	kabini_sdma1							\
+	kabini_uvd							\
+	kabini_vce							\
+	kaveri_ce							\
+	kaveri_me							\
+	kaveri_mec							\
+	kaveri_mec2							\
+	kaveri_pfp							\
+	kaveri_rlc							\
+	kaveri_sdma							\
+	kaveri_sdma1							\
+	kaveri_uvd							\
+	kaveri_vce							\
+	mullins_ce							\
+	mullins_me							\
+	mullins_mec							\
+	mullins_pfp							\
+	mullins_rlc							\
+	mullins_sdma							\
+	mullins_sdma1							\
+	mullins_uvd							\
+	mullins_vce							\
+	oland_ce							\
+	oland_k_smc							\
+	oland_mc							\
+	oland_me							\
+	oland_pfp							\
+	oland_rlc							\
+	oland_smc							\
+	pitcairn_ce							\
+	pitcairn_k_smc							\
+	pitcairn_mc							\
+	pitcairn_me							\
+	pitcairn_pfp							\
+	pitcairn_rlc							\
+	pitcairn_smc							\
 	polaris10_ce							\
 	polaris10_ce_2							\
 	polaris10_k_smc							\
@@ -88,6 +162,7 @@ SUBDIR=									\
 	raven_rlc							\
 	raven_sdma							\
 	raven_vcn							\
+	si58_mc								\
 	stoney_ce							\
 	stoney_me							\
 	stoney_mec							\
@@ -96,6 +171,13 @@ SUBDIR=									\
 	stoney_sdma							\
 	stoney_uvd							\
 	stoney_vce							\
+	tahiti_ce							\
+	tahiti_k_smc							\
+	tahiti_mc							\
+	tahiti_me							\
+	tahiti_pfp							\
+	tahiti_rlc							\
+	tahiti_smc							\
 	tonga_ce							\
 	tonga_k_smc							\
 	tonga_mc							\
@@ -134,7 +216,25 @@ SUBDIR=									\
 	vega10_smc							\
 	vega10_sos							\
 	vega10_uvd							\
-	vega10_vce
+	vega10_vce							\
+	vegam_ce							\
+	vegam_me							\
+	vegam_mec							\
+	vegam_mec2							\
+	vegam_pfp							\
+	vegam_rlc							\
+	vegam_sdma							\
+	vegam_sdma1							\
+	vegam_smc							\
+	vegam_uvd							\
+	vegam_vce							\
+	verde_ce							\
+	verde_k_smc							\
+	verde_mc							\
+	verde_me							\
+	verde_pfp							\
+	verde_rlc							\
+	verde_smc
 
 SUBDIR_PARALLEL=
 
