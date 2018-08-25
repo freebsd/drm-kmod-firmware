@@ -6,12 +6,14 @@ SUBDIR= \
 	bxthuc \
 	cnldmc \
 	glkdmc \
-	kbldmc \
+	kbldmc_101 \
+	kbldmc_104 \
 	kblguc \
 	kblhuc \
 	sklguc \
 	sklhuc \
-	skldmc 
+	skldmc_126 \
+	skldmc_127
 
 SUBDIR_PARALLEL=
 
