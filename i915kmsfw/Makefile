@@ -6,7 +6,7 @@ SUBDIR= \
 	bxthuc \
 	cnldmc \
 	glkdmc \
-	kbldmc \
+	kbldmc_101 \
 	kblguc \
 	kblhuc \
 	sklguc \
