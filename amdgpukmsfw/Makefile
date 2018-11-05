@@ -154,7 +154,7 @@ SUBDIR=									\
 	polaris12_vce							\
 	raven_asd							\
 	raven_ce							\
-	raven_dcmu							\
+	raven_dmcu							\
 	raven_gpu_info							\
 	raven_me							\
 	raven_mec							\
