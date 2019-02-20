@@ -90,6 +90,17 @@ SUBDIR=									\
 	oland_pfp							\
 	oland_rlc							\
 	oland_smc							\
+	picasso_asd							\
+	picasso_ce							\
+	picasso_gpu_info						\
+	picasso_me							\
+	picasso_mec							\
+	picasso_mec2							\
+	picasso_pfp							\
+	picasso_rlc							\
+	picasso_rlc_am4							\
+	picasso_sdma							\
+	picasso_vcn							\
 	pitcairn_ce							\
 	pitcairn_k_smc							\
 	pitcairn_mc							\
@@ -99,6 +110,8 @@ SUBDIR=									\
 	pitcairn_smc							\
 	polaris10_ce							\
 	polaris10_ce_2							\
+	polaris10_k2_smc						\
+	polaris10_k_mc							\
 	polaris10_k_smc							\
 	polaris10_mc							\
 	polaris10_me							\
@@ -118,6 +131,8 @@ SUBDIR=									\
 	polaris10_vce							\
 	polaris11_ce							\
 	polaris11_ce_2							\
+	polaris11_k2_smc						\
+	polaris11_k_mc							\
 	polaris11_k_smc							\
 	polaris11_mc							\
 	polaris11_me							\
@@ -137,6 +152,8 @@ SUBDIR=									\
 	polaris11_vce							\
 	polaris12_ce							\
 	polaris12_ce_2							\
+	polaris12_k_mc							\
+	polaris12_k_smc							\
 	polaris12_mc							\
 	polaris12_me							\
 	polaris12_me_2							\
@@ -152,6 +169,17 @@ SUBDIR=									\
 	polaris12_smc							\
 	polaris12_uvd							\
 	polaris12_vce							\
+	raven2_asd							\
+	raven2_ce							\
+	raven2_gpu_info							\
+	raven2_me							\
+	raven2_mec							\
+	raven2_mec2							\
+	raven2_pfp							\
+	raven2_rlc							\
+	raven2_sdma							\
+	raven2_sdma1							\
+	raven2_vcn							\
 	raven_asd							\
 	raven_ce							\
 	raven_dmcu							\
@@ -218,6 +246,33 @@ SUBDIR=									\
 	vega10_sos							\
 	vega10_uvd							\
 	vega10_vce							\
+	vega12_asd							\
+	vega12_ce							\
+	vega12_gpu_info							\
+	vega12_me							\
+	vega12_mec							\
+	vega12_mec2							\
+	vega12_pfp							\
+	vega12_rlc							\
+	vega12_sdma							\
+	vega12_sdma1							\
+	vega12_smc							\
+	vega12_sos							\
+	vega12_uvd							\
+	vega12_vce							\
+	vega20_asd							\
+	vega20_ce							\
+	vega20_me							\
+	vega20_mec							\
+	vega20_mec2							\
+	vega20_pfp							\
+	vega20_rlc							\
+	vega20_sdma							\
+	vega20_sdma1							\
+	vega20_smc							\
+	vega20_sos							\
+	vega20_uvd							\
+	vega20_vce							\
 	vegam_ce							\
 	vegam_me							\
 	vegam_mec							\
