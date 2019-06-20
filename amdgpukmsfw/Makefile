@@ -178,7 +178,6 @@ SUBDIR=									\
 	raven2_pfp							\
 	raven2_rlc							\
 	raven2_sdma							\
-	raven2_sdma1							\
 	raven2_vcn							\
 	raven_asd							\
 	raven_ce							\
