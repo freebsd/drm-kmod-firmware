@@ -83,6 +83,32 @@ SUBDIR=									\
 	mullins_sdma1							\
 	mullins_uvd							\
 	mullins_vce							\
+	navi10_asd							\
+	navi10_ce							\
+	navi10_gpu_info							\
+	navi10_me							\
+	navi10_mec							\
+	navi10_mec2							\
+	navi10_pfp							\
+	navi10_rlc							\
+	navi10_sdma							\
+	navi10_sdma1							\
+	navi10_smc							\
+	navi10_sos							\
+	navi10_vcn							\
+	navi14_asd							\
+	navi14_ce							\
+	navi14_gpu_info							\
+	navi14_me							\
+	navi14_mec							\
+	navi14_mec2							\
+	navi14_pfp							\
+	navi14_rlc							\
+	navi14_sdma							\
+	navi14_sdma1							\
+	navi14_smc							\
+	navi14_sos							\
+	navi14_vcn							\
 	oland_ce							\
 	oland_k_smc							\
 	oland_mc							\
@@ -183,6 +209,7 @@ SUBDIR=									\
 	raven_ce							\
 	raven_dmcu							\
 	raven_gpu_info							\
+	raven_kicker_rlc						\
 	raven_me							\
 	raven_mec							\
 	raven_mec2							\
