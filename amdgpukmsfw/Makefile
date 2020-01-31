@@ -95,14 +95,20 @@ SUBDIR=									\
 	navi10_sdma1							\
 	navi10_smc							\
 	navi10_sos							\
+	navi10_ta							\
 	navi10_vcn							\
 	navi14_asd							\
 	navi14_ce							\
+	navi14_ce_wks							\
 	navi14_gpu_info							\
 	navi14_me							\
+	navi14_me_wks							\
 	navi14_mec							\
+	navi14_mec_wks							\
 	navi14_mec2							\
+	navi14_mec2_wks							\
 	navi14_pfp							\
+	navi14_pfp_wks							\
 	navi14_rlc							\
 	navi14_sdma							\
 	navi14_sdma1							\
@@ -126,6 +132,7 @@ SUBDIR=									\
 	picasso_rlc							\
 	picasso_rlc_am4							\
 	picasso_sdma							\
+	picasso_ta							\
 	picasso_vcn							\
 	pitcairn_ce							\
 	pitcairn_k_smc							\
@@ -204,6 +211,7 @@ SUBDIR=									\
 	raven2_pfp							\
 	raven2_rlc							\
 	raven2_sdma							\
+	raven2_ta							\
 	raven2_vcn							\
 	raven_asd							\
 	raven_ce							\
@@ -216,6 +224,7 @@ SUBDIR=									\
 	raven_pfp							\
 	raven_rlc							\
 	raven_sdma							\
+	raven_ta							\
 	raven_vcn							\
 	si58_mc								\
 	stoney_ce							\
