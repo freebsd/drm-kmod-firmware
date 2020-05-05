@@ -8,7 +8,8 @@ SUBDIR= \
 	glkdmc \
 	kbldmc_101 \
 	kbldmc_104 \
-	kblguc \
+	kblguc_914 \
+	kblguc_939 \
 	kblhuc \
 	sklguc_61 \
 	sklguc_933 \
