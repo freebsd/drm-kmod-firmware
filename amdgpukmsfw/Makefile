@@ -114,6 +114,7 @@ SUBDIR=									\
 	navi14_sdma1							\
 	navi14_smc							\
 	navi14_sos							\
+	navi14_ta							\
 	navi14_vcn							\
 	oland_ce							\
 	oland_k_smc							\
@@ -226,6 +227,17 @@ SUBDIR=									\
 	raven_sdma							\
 	raven_ta							\
 	raven_vcn							\
+	renoir_asd							\
+	renoir_ce							\
+	renoir_dmcub							\
+	renoir_gpu_info							\
+	renoir_me							\
+	renoir_mec							\
+	renoir_mec2							\
+	renoir_pfp							\
+	renoir_rlc							\
+	renoir_sdma							\
+	renoir_vcn							\
 	si58_mc								\
 	stoney_ce							\
 	stoney_me							\
