@@ -97,6 +97,21 @@ SUBDIR=									\
 	navi10_sos							\
 	navi10_ta							\
 	navi10_vcn							\
+	navi12_asd							\
+	navi12_ce							\
+	navi12_dmcu							\
+	navi12_gpu_info							\
+	navi12_me							\
+	navi12_mec							\
+	navi12_mec2							\
+	navi12_pfp							\
+	navi12_rlc							\
+	navi12_sdma							\
+	navi12_sdma1							\
+	navi12_smc							\
+	navi12_sos							\
+	navi12_ta							\
+	navi12_vcn							\
 	navi14_asd							\
 	navi14_ce							\
 	navi14_ce_wks							\
@@ -123,6 +138,7 @@ SUBDIR=									\
 	oland_pfp							\
 	oland_rlc							\
 	oland_smc							\
+	oland_uvd							\
 	picasso_asd							\
 	picasso_ce							\
 	picasso_gpu_info						\
@@ -142,6 +158,7 @@ SUBDIR=									\
 	pitcairn_pfp							\
 	pitcairn_rlc							\
 	pitcairn_smc							\
+	pitcairn_uvd							\
 	polaris10_ce							\
 	polaris10_ce_2							\
 	polaris10_k2_smc						\
@@ -254,6 +271,7 @@ SUBDIR=									\
 	tahiti_pfp							\
 	tahiti_rlc							\
 	tahiti_smc							\
+	tahiti_uvd							\
 	tonga_ce							\
 	tonga_k_smc							\
 	tonga_mc							\
@@ -318,6 +336,7 @@ SUBDIR=									\
 	vega20_sdma1							\
 	vega20_smc							\
 	vega20_sos							\
+	vega20_ta							\
 	vega20_uvd							\
 	vega20_vce							\
 	vegam_ce							\
@@ -337,7 +356,8 @@ SUBDIR=									\
 	verde_me							\
 	verde_pfp							\
 	verde_rlc							\
-	verde_smc
+	verde_smc							\
+	verde_uvd
 
 SUBDIR_PARALLEL=
 
