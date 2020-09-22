@@ -1,6 +1,7 @@
 # $FreeBSD$
 
-KMOD	= i915_bxt_huc_ver01_07_bin
-NAME	= i915/bxt_huc_ver01_07.bin
-IMG	= bxt_huc_ver01_07_1398
+NAME=		bxt_huc
+VERSION=	01_07
+FILEVERSION=	${VERSION}_1398
+
 .include <bsd.kmod.mk>

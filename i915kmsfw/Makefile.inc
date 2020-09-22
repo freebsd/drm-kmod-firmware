@@ -3,16 +3,20 @@
 # Common rules for building firmware.  Note this gets auto-included
 # by the subdir Makefile's as a consequence of included bsd.kmod.mk.
 
-_FIRM=	${IMG}.bin
+FILEVERSION?=	${VERSION}
+FWFILE?=	${NAME}_ver${FILEVERSION}.bin
+_NAME=		i915_${NAME}_ver${VERSION}_bin
 
-CLEANFILES+=	${_FIRM} ${_FIRM}.fwo ${_FIRM}.ko.debug ${_FIRM}.ko.full
+KMOD=	${_NAME}
 
-FIRMWS=	${_FIRM}:${NAME}
+FIRMWS=	${_NAME}:${_NAME}
 
 #
-# Note that a license ack is not needed for iwn.
+# Note that a license ack is not needed for i915kms.
 #
 #FIRMWARE_LICENSE=
 
-${_FIRM}: ${.CURDIR}/../../i915kmsfw-files/${_FIRM}.uu
+CLEANFILES+=	${_NAME} ${_NAME}.fwo ${_NAME}.ko.debug ${_NAME}.ko.full
+
+${_NAME}: ${.CURDIR}/../../i915kmsfw-files/${FWFILE}.uu
 	uudecode -p $? > ${.TARGET}

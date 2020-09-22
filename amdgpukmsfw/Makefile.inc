@@ -3,16 +3,19 @@
 # Common rules for building firmware.  Note this gets auto-included
 # by the subdir Makefile's as a consequence of included bsd.kmod.mk.
 
-_FIRM=	${IMG}.bin
+FWFILE?=	${NAME}.bin
+_NAME=		amdgpu_${NAME}_bin
 
-CLEANFILES+=	${_FIRM}
+KMOD=	${_NAME}
 
-FIRMWS=	${_FIRM}:${NAME}
+FIRMWS=	${_NAME}:${_NAME}
 
 #
 # Note that a license ack is not needed for amdgpu 
 #
 #FIRMWARE_LICENSE=
 
-${_FIRM}: ${.CURDIR}/../../amdgpukmsfw-files/${_FIRM}.uu
+CLEANFILES+=	${_NAME} ${_NAME}.fwo ${_NAME}.ko.debug ${_NAME}.ko.full
+
+${_NAME}: ${.CURDIR}/../../amdgpukmsfw-files/${FWFILE}.uu
 	uudecode -p $? > ${.TARGET}
