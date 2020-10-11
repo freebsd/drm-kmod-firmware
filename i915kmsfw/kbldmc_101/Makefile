@@ -1,7 +1,6 @@
 # $FreeBSD$
 
-KMOD	= i915_kbl_dmc_ver1_01_bin
-NAME	= i915/kbl_dmc_ver1_01.bin
-IMG	= kbl_dmc_ver1_01
+NAME=		kbl_dmc
+VERSION=	1_01
 
 .include <bsd.kmod.mk>
