@@ -1,7 +1,5 @@
 # $FreeBSD$
 
-KMOD=	radeon_JUNIPER_me_bin
-NAME=	radeon/JUNIPER_me.bin
-IMG=	JUNIPER_me
+NAME=	JUNIPER_me
 
 .include <bsd.kmod.mk>

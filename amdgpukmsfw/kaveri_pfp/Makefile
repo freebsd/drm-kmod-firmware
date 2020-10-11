@@ -1,7 +1,5 @@
 # $FreeBSD$
 
-KMOD=	amdgpu_kaveri_pfp_bin
-NAME=	amdgpu/kaveri_pfp.bin
-IMG=	kaveri_pfp
+NAME=	kaveri_pfp
 
 .include <bsd.kmod.mk>
