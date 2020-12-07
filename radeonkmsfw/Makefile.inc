@@ -8,15 +8,14 @@ _NAME=		radeon_${NAME}_bin
 
 KMOD=	${_NAME}
 
-FIRMWS=	${FWFILE}:radeon/${FWFILE}
+FIRMWS=	${_NAME}:${_NAME}
 
 #
 # Note that a license ack is not needed for radeon.
 #
 #FIRMWARE_LICENSE=
 
-CLEANFILES+=	${FWFILE}
 CLEANFILES+=	${_NAME} ${_NAME}.fwo ${_NAME}.ko.debug ${_NAME}.ko.full
 
-${FWFILE}: ${.CURDIR}/../../radeonkmsfw-files/${FWFILE}.uu
+${_NAME}: ${.CURDIR}/../../radeonkmsfw-files/${FWFILE}.uu
 	uudecode -p $? > ${.TARGET}
