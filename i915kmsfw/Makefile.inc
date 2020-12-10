@@ -9,15 +9,14 @@ _NAME=		i915_${NAME}_ver${VERSION}_bin
 
 KMOD=	${_NAME}
 
-FIRMWS=	${FWFILE}:i915/${NAME}_ver${VERSION}.bin
+FIRMWS=	${_NAME}:${_NAME}
 
 #
 # Note that a license ack is not needed for i915kms.
 #
 #FIRMWARE_LICENSE=
 
-CLEANFILES+=	${FWFILE}
 CLEANFILES+=	${_NAME} ${_NAME}.fwo ${_NAME}.ko.debug ${_NAME}.ko.full
 
-${FWFILE}: ${.CURDIR}/../../i915kmsfw-files/${FWFILE}.uu
+${_NAME}: ${.CURDIR}/../../i915kmsfw-files/${FWFILE}.uu
 	uudecode -p $? > ${.TARGET}

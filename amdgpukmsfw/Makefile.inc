@@ -8,15 +8,14 @@ _NAME=		amdgpu_${NAME}_bin
 
 KMOD=	${_NAME}
 
-FIRMWS=	${FWFILE}:amdgpu/${FWFILE}
+FIRMWS=	${_NAME}:${_NAME}
 
 #
 # Note that a license ack is not needed for amdgpu 
 #
 #FIRMWARE_LICENSE=
 
-CLEANFILES+=	${FWFILE}
 CLEANFILES+=	${_NAME} ${_NAME}.fwo ${_NAME}.ko.debug ${_NAME}.ko.full
 
-${FWFILE}: ${.CURDIR}/../../amdgpukmsfw-files/${FWFILE}.uu
+${_NAME}: ${.CURDIR}/../../amdgpukmsfw-files/${FWFILE}.uu
 	uudecode -p $? > ${.TARGET}
