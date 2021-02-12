@@ -119,9 +119,9 @@ SUBDIR=									\
 	navi14_me							\
 	navi14_me_wks							\
 	navi14_mec							\
-	navi14_mec_wks							\
 	navi14_mec2							\
 	navi14_mec2_wks							\
+	navi14_mec_wks							\
 	navi14_pfp							\
 	navi14_pfp_wks							\
 	navi14_rlc							\
@@ -254,6 +254,7 @@ SUBDIR=									\
 	renoir_pfp							\
 	renoir_rlc							\
 	renoir_sdma							\
+	renoir_ta							\
 	renoir_vcn							\
 	si58_mc								\
 	stoney_ce							\
