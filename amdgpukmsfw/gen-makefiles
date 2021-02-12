@@ -16,17 +16,13 @@ done
 for file in $fwdir/*.uu; do
 	base=$(basename $file)
 	img=${base%.bin.uu}
-        kmodname=amdgpu_$img"_bin"
-	name=amdgpu/$img".bin"
 	echo "Image: $img"
 
 	mkdir -p $scriptdir/$img
 	cat > $scriptdir/$img/Makefile <<EOF
 # \$FreeBSD$
 
-KMOD=	$kmodname
-NAME=	$name
-IMG=	$img
+NAME=	$img
 
 .include <bsd.kmod.mk>
 EOF
