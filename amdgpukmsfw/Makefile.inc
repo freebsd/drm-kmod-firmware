@@ -17,5 +17,5 @@ FIRMWS=	${_NAME}:${_NAME}
 
 CLEANFILES+=	${_NAME} ${_NAME}.fwo ${_NAME}.ko.debug ${_NAME}.ko.full
 
-${_NAME}: ${.CURDIR}/../../amdgpukmsfw-files/${FWFILE}.uu
-	uudecode -p $? > ${.TARGET}
+${_NAME}: ${.CURDIR}/../../amdgpukmsfw-files/${FWFILE}
+	cp $? ${.TARGET}
