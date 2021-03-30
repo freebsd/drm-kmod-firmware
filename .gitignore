@@ -1,6 +1,5 @@
 *.[oa]
 *.ko
-*.bin
 *.fwo
 *.c
 **/machine
