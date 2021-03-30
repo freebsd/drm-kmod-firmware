@@ -142,18 +142,6 @@ SUBDIR=									\
 	navi14_sos							\
 	navi14_ta							\
 	navi14_vcn							\
-	navy_flounder_ce						\
-	navy_flounder_dmcub						\
-	navy_flounder_me						\
-	navy_flounder_mec						\
-	navy_flounder_mec2						\
-	navy_flounder_pfp						\
-	navy_flounder_rlc						\
-	navy_flounder_sdma						\
-	navy_flounder_smc						\
-	navy_flounder_sos						\
-	navy_flounder_ta						\
-	navy_flounder_vcn						\
 	oland_ce							\
 	oland_k_smc							\
 	oland_mc							\
