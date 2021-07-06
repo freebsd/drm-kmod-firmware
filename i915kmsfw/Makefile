@@ -14,7 +14,8 @@ SUBDIR= \
 	sklguc_933 \
 	sklhuc \
 	skldmc_126 \
-	skldmc_127
+	skldmc_127 \
+	tgldmc
 
 SUBDIR_PARALLEL=
 
