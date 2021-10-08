@@ -3,9 +3,15 @@
 # Common rules for building firmware.  Note this gets auto-included
 # by the subdir Makefile's as a consequence of included bsd.kmod.mk.
 
+.if defined(RAWVERSION)
+FILEVERSION?=	${RAWVERSION}
+FWFILE?=	${NAME}_${FILEVERSION}.bin
+_NAME=		i915_${NAME}_${RAWVERSION:S/./_/g}_bin
+.else
 FILEVERSION?=	${VERSION}
 FWFILE?=	${NAME}_ver${FILEVERSION}.bin
 _NAME=		i915_${NAME}_ver${VERSION}_bin
+.endif
 
 KMOD=	${_NAME}
 
