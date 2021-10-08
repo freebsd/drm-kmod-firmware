@@ -5,4 +5,5 @@
 **/machine
 **/x86
 **/export_syms
-
+*_bin
+*.h
