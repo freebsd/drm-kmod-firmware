@@ -1,11 +1,11 @@
 # $FreeBSD$
 
 SUBDIR= \
-	bxtdmc \
+	bxtdmc_107 \
 	bxtguc \
 	bxthuc \
-	cnldmc \
-	glkdmc \
+	cnldmc_106 \
+	glkdmc_104 \
 	kbldmc_104 \
 	kblguc \
 	kblhuc \
