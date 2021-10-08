@@ -8,6 +8,8 @@ SUBDIR= \
 	bxthuc_200 \
 	cnldmc_106 \
 	cnldmc_107 \
+	cmlguc_3300 \
+	cmlhuc_400 \
 	icldmc_107 \
 	icldmc_109 \
 	iclguc_3300 \
