@@ -8,7 +8,9 @@ SUBDIR= \
 	glkdmc_104 \
 	kbldmc_104 \
 	kblguc_939 \
+	kblguc_3300 \
 	kblhuc_200 \
+	kblhuc_400 \
 	skldmc_127 \
 	sklguc_933 \
 	sklguc_3300 \
