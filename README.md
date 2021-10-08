@@ -1,5 +1,5 @@
-# kms-firmware
-Firmware for use with kms drivers.
+# drm-kmod-firmware
+Firmware for use with drm-kmod drivers.
 
 ## Contributing
 
