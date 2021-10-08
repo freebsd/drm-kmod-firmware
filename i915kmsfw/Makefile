@@ -3,7 +3,9 @@
 SUBDIR= \
 	bxtdmc_107 \
 	bxtguc_929 \
+	bxtguc_3300 \
 	bxthuc_107 \
+	bxthuc_200 \
 	cnldmc_106 \
 	glkdmc_104 \
 	kbldmc_104 \
