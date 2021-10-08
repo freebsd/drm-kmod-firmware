@@ -9,7 +9,6 @@ SUBDIR= \
 	kbldmc_104 \
 	kblguc \
 	kblhuc \
-	sklguc_61 \
 	sklguc_933 \
 	sklhuc \
 	skldmc_127

@@ -1,6 +1,6 @@
 # $FreeBSD$
 
 NAME=		bxt_guc
-VERSION=	8_7
+VERSION=	9_29
 
 .include <bsd.kmod.mk>
