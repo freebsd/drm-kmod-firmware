@@ -21,7 +21,7 @@ Since there is multiple drm-kmod version supported on the different
 version of FreeBSD we need different versions of the firmwares too.
 For v4.16 (Supported on FreeBSD 12.X) :
 
-Main firmware : https://github.com/FreeBSDDesktop/kms-drm/blob/drm-v4.16/drivers/gpu/drm/i915/intel_csr.c#L37
+DMC firmware : https://github.com/FreeBSDDesktop/kms-drm/blob/drm-v4.16/drivers/gpu/drm/i915/intel_csr.c#L37
 
 GuC firmware : https://github.com/FreeBSDDesktop/kms-drm/blob/drm-v4.16/drivers/gpu/drm/i915/intel_guc_fw.c#L33
 
@@ -29,19 +29,19 @@ HuC firmware : https://github.com/FreeBSDDesktop/kms-drm/blob/drm-v4.16/drivers/
 
 For 5.4-lts (Supported on FreeBSD 13.0 and above) :
 
-Main firmware : https://github.com/freebsd/drm-kmod/blob/5.4-lts/drivers/gpu/drm/i915/intel_csr.c#L42
+DMC firmware : https://github.com/freebsd/drm-kmod/blob/5.4-lts/drivers/gpu/drm/i915/intel_csr.c#L42
 
 GuC/HuC firmware : https://github.com/freebsd/drm-kmod/blob/5.4-lts/drivers/gpu/drm/i915/gt/uc/intel_uc_fw.c#L41
 
 For 5.5-lts (Supported on FreeBSD 13-STABLE and above) :
 
-Main firmware : https://github.com/freebsd/drm-kmod/blob/5.5-stable/drivers/gpu/drm/i915/intel_csr.c#L42
+DMC firmware : https://github.com/freebsd/drm-kmod/blob/5.5-stable/drivers/gpu/drm/i915/intel_csr.c#L42
 
 GuC/HuC firmware : https://github.com/freebsd/drm-kmod/blob/5.5-stable/drivers/gpu/drm/i915/gt/uc/intel_uc_fw.c#L45
 
 For 5.6-lts (Supported on FreeBSD 13-STABLE and above) :
 
-Main firmware https://github.com/freebsd/drm-kmod/blob/master/drivers/gpu/drm/i915/intel_csr.c#L42
+DMC firmware https://github.com/freebsd/drm-kmod/blob/master/drivers/gpu/drm/i915/intel_csr.c#L42
 
 GuC/HuC firmware : https://github.com/freebsd/drm-kmod/blob/master/drivers/gpu/drm/i915/gt/uc/intel_uc_fw.c#L45
 
