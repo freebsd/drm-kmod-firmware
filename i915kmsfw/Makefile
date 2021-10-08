@@ -10,6 +10,8 @@ SUBDIR= \
 	cnldmc_107 \
 	cmlguc_3300 \
 	cmlhuc_400 \
+	ehlguc_3304 \
+	ehlhuc_900 \
 	icldmc_107 \
 	icldmc_109 \
 	iclguc_3300 \
