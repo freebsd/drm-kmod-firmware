@@ -7,6 +7,11 @@ SUBDIR= \
 	bxthuc_107 \
 	bxthuc_200 \
 	cnldmc_106 \
+	icldmc_107 \
+	icldmc_109 \
+	iclguc_3300 \
+	iclhuc_84 \
+	iclhuc_900 \
 	glkdmc_104 \
 	glkguc_3300 \
 	glkhuc_301 \
