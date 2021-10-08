@@ -9,9 +9,9 @@ SUBDIR= \
 	kbldmc_104 \
 	kblguc_939 \
 	kblhuc_200 \
+	skldmc_127 \
 	sklguc_933 \
 	sklhuc_107 \
-	skldmc_127 \
 	tgldmc_204
 
 SUBDIR_PARALLEL=
