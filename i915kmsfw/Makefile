@@ -5,6 +5,7 @@ SUBDIR= \
 	bxtguc_929 \
 	bxtguc_3300 \
 	bxthuc_107 \
+	bxthuc_108 \
 	bxthuc_200 \
 	cnldmc_106 \
 	cnldmc_107 \
