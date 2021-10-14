@@ -46,7 +46,7 @@ SUBDIR+=	glkdmc_104 \
 		glkhuc_400
 .endif
 
-.if ${I915KMODS:Mcoffelake}
+.if ${I915KMODS:Mcoffeelake}
 SUBDIR+=	cnldmc_106 \
 		cnldmc_107 \
 		cmlguc_3300 \
