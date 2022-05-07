@@ -23,6 +23,7 @@ _VALID_AMDGPUKMODS=	banks \
 			raven2 \
 			renoir \
 			si58 \
+			sienna_cichlid \
 			stoney \
 			tahiti \
 			tonga \
@@ -514,6 +515,21 @@ SUBDIR+=	navi14_asd	\
 		navi14_vcn
 .endif
 
+
+.if ${AMDGPUKMODS:Msienna_cichlid}
+SUBDIR+=	sienna_cichlid_ce	\
+		sienna_cichlid_dmcub	\
+		sienna_cichlid_me	\
+		sienna_cichlid_mec	\
+		sienna_cichlid_mec2	\
+		sienna_cichlid_pfp	\
+		sienna_cichlid_rlc	\
+		sienna_cichlid_sdma	\
+		sienna_cichlid_smc	\
+		sienna_cichlid_sos	\
+		sienna_cichlid_ta	\
+		sienna_cichlid_vcn
+.endif
 SUBDIR_PARALLEL=
 
 .include <bsd.subdir.mk>
