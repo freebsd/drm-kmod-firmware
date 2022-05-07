@@ -4,6 +4,7 @@ _VALID_AMDGPUKMODS=	banks \
 			bonaire \
 			carrizo \
 			fiji \
+			green_sardine \
 			hainan \
 			hawaii \
 			kabini \
@@ -329,6 +330,20 @@ SUBDIR+=	vegam_ce	\
 .endif
 
 ## GFX9/GCN
+.if ${AMDGPUKMODS:Mgreen_sardine}
+SUBDIR+=	green_sardine_asd	\
+		green_sardine_ce	\
+		green_sardine_dmcub	\
+		green_sardine_me	\
+		green_sardine_mec	\
+		green_sardine_mec2	\
+		green_sardine_pfp	\
+		green_sardine_rlc	\
+		green_sardine_sdma	\
+		green_sardine_ta	\
+		green_sardine_vcn
+.endif
+
 .if ${AMDGPUKMODS:Mpicasso}
 SUBDIR+=	picasso_asd		\
 		picasso_ce		\
