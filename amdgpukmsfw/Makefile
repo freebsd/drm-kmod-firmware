@@ -36,6 +36,10 @@ _VALID_AMDGPUKMODS=	banks \
 			vegam \
 			verde
 
+.if ${OSVERSION} >= 1301000
+_VALID_AMDGPUKMODS+=	green_sardine
+.endif
+
 AMDGPUKMODS?=	${_VALID_AMDGPUKMODS}
 
 .for var in ${AMDGPUKMODS}
@@ -205,6 +209,20 @@ SUBDIR+=	fiji_ce		\
 		fiji_smc	\
 		fiji_uvd	\
 		fiji_vce
+.endif
+
+.if ${AMDGPUKMODS:Mgreen_sardine}
+SUBDIR+=	green_sardine_asd	\
+		green_sardine_ce	\
+		green_sardine_dmcub	\
+		green_sardine_me	\
+		green_sardine_mec	\
+		green_sardine_mec2	\
+		green_sardine_pfp	\
+		green_sardine_rlc	\
+		green_sardine_sdma	\
+		green_sardine_ta	\
+		green_sardine_vcn
 .endif
 
 .if ${AMDGPUKMODS:Mpolaris10}
