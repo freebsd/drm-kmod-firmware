@@ -70,7 +70,7 @@ SUBDIR+=	ehlguc_3304 \
 SUBDIR+=	tgldmc_204 \
 		tgldmc_208 \
 		tglguc_3520 \
-		tglhuc_703
+		tglhuc_750
 .endif
 
 .if ${I915KMODS:Mrocketlake}

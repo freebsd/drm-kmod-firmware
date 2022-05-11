@@ -1,6 +1,6 @@
 # $FreeBSD$
 
 NAME=		tgl_huc
-RAWVERSION=	7.0.3
+RAWVERSION=	7.5.0
 
 .include <bsd.kmod.mk>
