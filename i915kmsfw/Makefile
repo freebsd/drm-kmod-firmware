@@ -68,6 +68,7 @@ SUBDIR+=	ehlguc_3304 \
 
 .if ${I915KMODS:Mtigerlake}
 SUBDIR+=	tgldmc_204 \
+		tgldmc_208 \
 		tglguc_3520 \
 		tglhuc_703
 .endif
