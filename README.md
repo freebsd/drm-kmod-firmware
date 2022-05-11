@@ -23,9 +23,9 @@ For v4.16 (Supported on FreeBSD 12.X) :
 
 DMC firmware : https://github.com/freebsd/drm-kmod/blob/4.16-fbsd12/drivers/gpu/drm/i915/intel_csr.c#L37
 
-GuC firmware : https://github.com/freebsd/drm-kmod/blob/4.16-fbsd12/blob/drivers/gpu/drm/i915/intel_guc_fw.c#L33
+GuC firmware : https://github.com/freebsd/drm-kmod/blob/4.16-fbsd12/drivers/gpu/drm/i915/intel_guc_fw.c#L33
 
-HuC firmware : https://github.com/freebsd/drm-kmod/blob/4.16-fbsd12/blob/drivers/gpu/drm/i915/intel_huc.c#L45
+HuC firmware : https://github.com/freebsd/drm-kmod/blob/4.16-fbsd12/drivers/gpu/drm/i915/intel_huc.c#L45
 
 For 5.4-lts (Supported on FreeBSD 13.0 and above) :
 
