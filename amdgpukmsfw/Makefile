@@ -8,6 +8,7 @@ _VALID_AMDGPUKMODS=	arcturus \
 			banks \
 			bonaire \
 			carrizo \
+			dimgrey_cavefish \
 			fiji \
 			hainan \
 			hawaii \
@@ -566,6 +567,21 @@ SUBDIR+=	navy_flounder_ce	\
 		navy_flounder_sdma	\
 		navy_flounder_sos	\
 		navy_flounder_vcn
+.endif
+
+.if ${AMDGPUKMODS:Mdimgrey_cavefish}
+SUBDIR+=	dimgrey_cavefish_ce	\
+		dimgrey_cavefish_me	\
+		dimgrey_cavefish_mec2	\
+		dimgrey_cavefish_rlc	\
+		dimgrey_cavefish_smc	\
+		dimgrey_cavefish_ta	\
+		dimgrey_cavefish_dmcub	\
+		dimgrey_cavefish_mec	\
+		dimgrey_cavefish_pfp	\
+		dimgrey_cavefish_sdma	\
+		dimgrey_cavefish_sos	\
+		dimgrey_cavefish_vcn
 .endif
 
 SUBDIR_PARALLEL=
