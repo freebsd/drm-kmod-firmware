@@ -4,7 +4,8 @@
 OSVERSION!=	awk '/^\#define[[:blank:]]__FreeBSD_version/ {print $$3}' ${SYSDIR}/sys/param.h 
 .endif
 
-_VALID_AMDGPUKMODS=	banks \
+_VALID_AMDGPUKMODS=	arcturus \
+			banks \
 			bonaire \
 			carrizo \
 			fiji \
@@ -38,7 +39,8 @@ _VALID_AMDGPUKMODS=	banks \
 
 .if ${OSVERSION} >= 1301000
 _VALID_AMDGPUKMODS+=	green_sardine \
-			sienna_cichlid
+			sienna_cichlid \
+			navy_flounder
 .endif
 
 AMDGPUKMODS?=	${_VALID_AMDGPUKMODS}
@@ -279,6 +281,7 @@ SUBDIR+=	polaris12_ce		\
 		polaris12_ce_2		\
 		polaris12_k_mc		\
 		polaris12_k_smc		\
+		polaris12_32_mc		\
 		polaris12_mc		\
 		polaris12_me		\
 		polaris12_me_2		\
@@ -535,6 +538,34 @@ SUBDIR+=	sienna_cichlid_ce	\
 		sienna_cichlid_sos	\
 		sienna_cichlid_ta	\
 		sienna_cichlid_vcn
+.endif
+
+.if ${AMDGPUKMODS:Marcturus}
+SUBDIR+=	arcturus_asd		\
+		arcturus_mec		\
+		arcturus_rlc		\
+		arcturus_smc		\
+		arcturus_ta		\
+		arcturus_gpu_info	\
+		arcturus_mec2		\
+		arcturus_sdma		\
+		arcturus_sos		\
+		arcturus_vcn
+.endif
+
+.if ${AMDGPUKMODS:Mnavy_flounder}
+SUBDIR+=	navy_flounder_ce	\
+		navy_flounder_me	\
+		navy_flounder_mec2	\
+		navy_flounder_rlc	\
+		navy_flounder_smc	\
+		navy_flounder_ta	\
+		navy_flounder_dmcub	\
+		navy_flounder_mec	\
+		navy_flounder_pfp	\
+		navy_flounder_sdma	\
+		navy_flounder_sos	\
+		navy_flounder_vcn
 .endif
 
 SUBDIR_PARALLEL=
