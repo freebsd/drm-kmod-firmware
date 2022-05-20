@@ -342,6 +342,20 @@ SUBDIR+=	vegam_ce	\
 .endif
 
 ## GFX9/GCN
+
+.if ${AMDGPUKMODS:Marcturus}
+SUBDIR+=	arcturus_asd		\
+		arcturus_mec		\
+		arcturus_rlc		\
+		arcturus_smc		\
+		arcturus_ta		\
+		arcturus_gpu_info	\
+		arcturus_mec2		\
+		arcturus_sdma		\
+		arcturus_sos		\
+		arcturus_vcn
+.endif
+
 .if ${AMDGPUKMODS:Mpicasso}
 SUBDIR+=	picasso_asd		\
 		picasso_ce		\
@@ -540,19 +554,6 @@ SUBDIR+=	sienna_cichlid_ce	\
 		sienna_cichlid_sos	\
 		sienna_cichlid_ta	\
 		sienna_cichlid_vcn
-.endif
-
-.if ${AMDGPUKMODS:Marcturus}
-SUBDIR+=	arcturus_asd		\
-		arcturus_mec		\
-		arcturus_rlc		\
-		arcturus_smc		\
-		arcturus_ta		\
-		arcturus_gpu_info	\
-		arcturus_mec2		\
-		arcturus_sdma		\
-		arcturus_sos		\
-		arcturus_vcn
 .endif
 
 .if ${AMDGPUKMODS:Mnavy_flounder}
