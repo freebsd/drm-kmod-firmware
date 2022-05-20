@@ -8,7 +8,6 @@ _VALID_AMDGPUKMODS=	arcturus \
 			banks \
 			bonaire \
 			carrizo \
-			dimgrey_cavefish \
 			fiji \
 			hainan \
 			hawaii \
@@ -39,7 +38,8 @@ _VALID_AMDGPUKMODS=	arcturus \
 			verde
 
 .if ${OSVERSION} >= 1301000
-_VALID_AMDGPUKMODS+=	green_sardine \
+_VALID_AMDGPUKMODS+=	dimgrey_cavefish \
+			green_sardine \
 			sienna_cichlid \
 			navy_flounder
 .endif
