@@ -215,20 +215,6 @@ SUBDIR+=	fiji_ce		\
 		fiji_vce
 .endif
 
-.if ${AMDGPUKMODS:Mgreen_sardine}
-SUBDIR+=	green_sardine_asd	\
-		green_sardine_ce	\
-		green_sardine_dmcub	\
-		green_sardine_me	\
-		green_sardine_mec	\
-		green_sardine_mec2	\
-		green_sardine_pfp	\
-		green_sardine_rlc	\
-		green_sardine_sdma	\
-		green_sardine_ta	\
-		green_sardine_vcn
-.endif
-
 .if ${AMDGPUKMODS:Mpolaris10}
 SUBDIR+=	polaris10_ce		\
 		polaris10_ce_2		\
@@ -524,6 +510,21 @@ SUBDIR+=	navi14_asd	\
 		navi14_sos	\
 		navi14_ta	\
 		navi14_vcn
+.endif
+
+## GFX10/RDNA2
+.if ${AMDGPUKMODS:Mgreen_sardine}
+SUBDIR+=	green_sardine_asd	\
+		green_sardine_ce	\
+		green_sardine_dmcub	\
+		green_sardine_me	\
+		green_sardine_mec	\
+		green_sardine_mec2	\
+		green_sardine_pfp	\
+		green_sardine_rlc	\
+		green_sardine_sdma	\
+		green_sardine_ta	\
+		green_sardine_vcn
 .endif
 
 .if ${AMDGPUKMODS:Msienna_cichlid}
