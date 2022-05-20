@@ -1,6 +1,8 @@
 freebsd_task:
         script:
                 - make -j4
+                - mkdir -p /tmp/test_install/boot/modules
+                - make install DESTDIR=/tmp/test_install/
         matrix:
                 - name: freebsd13-amd64
                   freebsd_instance:
