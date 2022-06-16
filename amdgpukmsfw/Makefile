@@ -41,7 +41,8 @@ _VALID_AMDGPUKMODS=	arcturus \
 _VALID_AMDGPUKMODS+=	dimgrey_cavefish \
 			green_sardine \
 			sienna_cichlid \
-			navy_flounder
+			navy_flounder \
+			vangogh
 .endif
 
 AMDGPUKMODS?=	${_VALID_AMDGPUKMODS}
@@ -584,6 +585,20 @@ SUBDIR+=	dimgrey_cavefish_ce	\
 		dimgrey_cavefish_sdma	\
 		dimgrey_cavefish_sos	\
 		dimgrey_cavefish_vcn
+.endif
+
+.if ${AMDGPUKMODS:Mvangogh}
+SUBDIR+=	vangogh_asd \
+		vangogh_ce \
+		vangogh_dmcub \
+		vangogh_me \
+		vangogh_mec \
+		vangogh_mec2 \
+		vangogh_pfp \
+		vangogh_rlc \
+		vangogh_sdma \
+		vangogh_toc \
+		vangogh_vcn
 .endif
 
 SUBDIR_PARALLEL=
