@@ -13,9 +13,9 @@ for dir in $scriptdir/*; do
 	rm -rf $dir
 done
 
-for file in $fwdir/*.uu; do
+for file in $fwdir/*.bin; do
 	base=$(basename $file)
-	img=${base%.bin.uu}
+	img=${base%.bin}
 	echo "Image: $img"
 
 	mkdir -p $scriptdir/$img
