@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 _VALID_I915KMODS=skylake broxton kabylake geminilake coffeelake \
-	icelake elkhartlake tigerlake rocketlake
+	icelake elkhartlake tigerlake rocketlake dg1
 
 I915KMODS?=	${_VALID_I915KMODS}
 
@@ -77,6 +77,9 @@ SUBDIR+=	tgldmc_204 \
 SUBDIR+=	rkldmc_202
 .endif
 
+.if ${I915KMODS:Mdg1}
+SUBDIR+=	dg1dmc_202
+.endif
 
 SUBDIR_PARALLEL=
 
