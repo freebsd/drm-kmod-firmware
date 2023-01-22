@@ -4,10 +4,13 @@
 OSVERSION!=	awk '/^\#define[[:blank:]]__FreeBSD_version/ {print $$3}' ${SYSDIR}/sys/param.h 
 .endif
 
-_VALID_AMDGPUKMODS=	arcturus \
+_VALID_AMDGPUKMODS=	aldebaran \
+			arcturus \
 			banks \
+			beige_goby \
 			bonaire \
 			carrizo \
+			cyan_skillfish2 \
 			fiji \
 			hainan \
 			hawaii \
@@ -35,7 +38,8 @@ _VALID_AMDGPUKMODS=	arcturus \
 			vega12 \
 			vega20 \
 			vegam \
-			verde
+			verde \
+			yellow_carp
 
 .if ${OSVERSION} >= 1301000
 _VALID_AMDGPUKMODS+=	dimgrey_cavefish \
@@ -600,6 +604,122 @@ SUBDIR+=	vangogh_asd \
 		vangogh_toc \
 		vangogh_vcn
 .endif
+
+.if ${AMDGPUKMODS:Maldebaran}
+SUBDIR+=	aldebaran_mec \
+		aldebaran_mec2 \
+		aldebaran_rlc \
+		aldebaran_sdma \
+		aldebaran_sjt_mec \
+		aldebaran_sjt_mec2 \
+		aldebaran_smc \
+		aldebaran_sos \
+		aldebaran_ta \
+		aldebaran_vcn
+.endif
+
+.if ${AMDGPUKMODS:Mbeige_goby}
+SUBDIR+=	beige_goby_ce \
+		beige_goby_dmcub \
+		beige_goby_me \
+		beige_goby_mec \
+		beige_goby_mec2 \
+		beige_goby_pfp \
+		beige_goby_rlc \
+		beige_goby_sdma \
+		beige_goby_smc \
+		beige_goby_sos \
+		beige_goby_ta \
+		beige_goby_vcn
+.endif
+
+.if ${AMDGPUKMODS:Mcyan_skillfish2}
+SUBDIR+=	cyan_skillfish2_ce \
+		cyan_skillfish2_me \
+		cyan_skillfish2_mec \
+		cyan_skillfish2_mec2 \
+		cyan_skillfish2_pfp \
+		cyan_skillfish2_rlc \
+		cyan_skillfish2_sdma \
+		cyan_skillfish2_sdma1
+.endif
+
+.if ${AMDGPUKMODS:Myellow_carp}
+SUBDIR+=	yellow_carp_asd \
+		yellow_carp_ce \
+		yellow_carp_dmcub \
+		yellow_carp_me \
+		yellow_carp_mec \
+		yellow_carp_mec2 \
+		yellow_carp_pfp \
+		yellow_carp_rlc \
+		yellow_carp_sdma \
+		yellow_carp_ta \
+		yellow_carp_toc \
+		yellow_carp_vcn
+.endif
+
+SUBDIR+=	dcn_3_1_5_dmcub \
+		dcn_3_1_4_dmcub \
+		dcn_3_1_6_dmcub \
+		dcn_3_2_0_dmcub \
+		dcn_3_2_1_dmcub \
+		gc_10_3_6_ce \
+		gc_10_3_6_me \
+		gc_10_3_6_mec \
+		gc_10_3_6_mec2 \
+		gc_10_3_6_pfp \
+		gc_10_3_6_rlc \
+		gc_10_3_7_ce \
+		gc_10_3_7_me \
+		gc_10_3_7_mec \
+		gc_10_3_7_mec2 \
+		gc_10_3_7_pfp \
+		gc_10_3_7_rlc \
+		gc_11_0_0_imu \
+		gc_11_0_0_me \
+		gc_11_0_0_mec \
+		gc_11_0_0_mes \
+		gc_11_0_0_mes1 \
+		gc_11_0_0_pfp \
+		gc_11_0_0_rlc \
+		gc_11_0_1_imu \
+		gc_11_0_1_me \
+		gc_11_0_1_mec \
+		gc_11_0_1_mes \
+		gc_11_0_1_mes1 \
+		gc_11_0_1_pfp \
+		gc_11_0_1_rlc \
+		gc_11_0_2_imu \
+		gc_11_0_2_me \
+		gc_11_0_2_mec \
+		gc_11_0_2_mes \
+		gc_11_0_2_mes1 \
+		gc_11_0_2_pfp \
+		gc_11_0_2_rlc \
+		psp_13_0_0_sos \
+		psp_13_0_0_ta \
+		psp_13_0_4_ta \
+		psp_13_0_4_toc \
+		psp_13_0_5_asd \
+		psp_13_0_5_ta \
+		psp_13_0_5_toc \
+		psp_13_0_7_sos \
+		psp_13_0_7_ta \
+		psp_13_0_8_asd \
+		psp_13_0_8_ta \
+		psp_13_0_8_toc \
+		sdma_5_2_6 \
+		sdma_5_2_7 \
+		sdma_6_0_0 \
+		sdma_6_0_1 \
+		sdma_6_0_2 \
+		smu_13_0_0 \
+		smu_13_0_7 \
+		vcn_3_1_2 \
+		vcn_4_0_0 \
+		vcn_4_0_2 \
+		vcn_4_0_4
 
 SUBDIR_PARALLEL=
 
