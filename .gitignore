@@ -1,9 +1,12 @@
 *.[oa]
 *.ko
+*.ko.debug
+*.ko.full
 *.fwo
 *.c
 **/machine
 **/x86
+**/i386
 **/export_syms
 *_bin
 *.h
