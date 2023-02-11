@@ -5,8 +5,8 @@
 
 .if defined(RAWVERSION)
 FILEVERSION?=	${RAWVERSION}
-FWFILE?=	${NAME}_${FILEVERSION}.bin
-_NAME=		i915_${NAME}_${RAWVERSION:S/./_/g}_bin
+FWFILE?=	${NAME}${"${FILEVERSION}" != "":?_:}${FILEVERSION}.bin
+_NAME=		i915_${NAME}${"${RAWVERSION}" != "":?_:}${RAWVERSION:S/./_/g}_bin
 .else
 FILEVERSION?=	${VERSION}
 FWFILE?=	${NAME}_ver${FILEVERSION}.bin
