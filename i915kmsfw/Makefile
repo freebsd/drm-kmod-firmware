@@ -80,7 +80,6 @@ SUBDIR+=	tgldmc_204 \
 		tgldmc_212 \
 		tglguc_3520 \
 		tglguc_6200 \
-		tglhuc_703 \
 		tglhuc_750 \
 		tglhuc_793
 .endif
