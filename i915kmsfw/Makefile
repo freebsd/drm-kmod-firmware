@@ -94,9 +94,6 @@ SUBDIR+=	adlpdmc \
 		adlpdmc_210 \
 		adlpdmc_212 \
 		adlpguc_6203 \
-		adlpguc_6903 \
-		adlpguc_70 \
-		adlpguc_7011 \
 		adlsdmc_201
 .endif
 
