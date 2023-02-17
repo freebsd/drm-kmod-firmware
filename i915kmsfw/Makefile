@@ -27,13 +27,8 @@ SUBDIR+=	skldmc_127 \
 .if ${I915KMODS:Mbroxton}
 SUBDIR+=	bxtdmc_107 \
 		bxtguc_929 \
-		bxtguc_3203 \
 		bxtguc_3300 \
-		bxtguc_4901 \
 		bxtguc_6200 \
-		bxtguc_6903 \
-		bxtguc_7011 \
-		bxtguc_ver87 \
 		bxthuc_107 \
 		bxthuc_108 \
 		bxthuc_200
