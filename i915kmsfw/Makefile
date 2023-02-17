@@ -18,12 +18,8 @@ _INVALID_I915_KMODS+=	${var}
 .if ${I915KMODS:Mskylake}
 SUBDIR+=	skldmc_127 \
 		sklguc_933 \
-		sklguc_3203 \
 		sklguc_3300 \
-		sklguc_4901 \
 		sklguc_6200 \
-		sklguc_6903 \
-		sklguc_7011 \
 		sklhuc_107 \
 		sklhuc_200
 .endif
