@@ -659,68 +659,6 @@ SUBDIR+=	yellow_carp_asd \
 		yellow_carp_vcn
 .endif
 
-SUBDIR+=	dcn_3_1_5_dmcub \
-		dcn_3_1_4_dmcub \
-		dcn_3_1_6_dmcub \
-		dcn_3_2_0_dmcub \
-		dcn_3_2_1_dmcub \
-		gc_10_3_6_ce \
-		gc_10_3_6_me \
-		gc_10_3_6_mec \
-		gc_10_3_6_mec2 \
-		gc_10_3_6_pfp \
-		gc_10_3_6_rlc \
-		gc_10_3_7_ce \
-		gc_10_3_7_me \
-		gc_10_3_7_mec \
-		gc_10_3_7_mec2 \
-		gc_10_3_7_pfp \
-		gc_10_3_7_rlc \
-		gc_11_0_0_imu \
-		gc_11_0_0_me \
-		gc_11_0_0_mec \
-		gc_11_0_0_mes \
-		gc_11_0_0_mes1 \
-		gc_11_0_0_pfp \
-		gc_11_0_0_rlc \
-		gc_11_0_1_imu \
-		gc_11_0_1_me \
-		gc_11_0_1_mec \
-		gc_11_0_1_mes \
-		gc_11_0_1_mes1 \
-		gc_11_0_1_pfp \
-		gc_11_0_1_rlc \
-		gc_11_0_2_imu \
-		gc_11_0_2_me \
-		gc_11_0_2_mec \
-		gc_11_0_2_mes \
-		gc_11_0_2_mes1 \
-		gc_11_0_2_pfp \
-		gc_11_0_2_rlc \
-		psp_13_0_0_sos \
-		psp_13_0_0_ta \
-		psp_13_0_4_ta \
-		psp_13_0_4_toc \
-		psp_13_0_5_asd \
-		psp_13_0_5_ta \
-		psp_13_0_5_toc \
-		psp_13_0_7_sos \
-		psp_13_0_7_ta \
-		psp_13_0_8_asd \
-		psp_13_0_8_ta \
-		psp_13_0_8_toc \
-		sdma_5_2_6 \
-		sdma_5_2_7 \
-		sdma_6_0_0 \
-		sdma_6_0_1 \
-		sdma_6_0_2 \
-		smu_13_0_0 \
-		smu_13_0_7 \
-		vcn_3_1_2 \
-		vcn_4_0_0 \
-		vcn_4_0_2 \
-		vcn_4_0_4
-
 SUBDIR_PARALLEL=
 
 .include <bsd.subdir.mk>
