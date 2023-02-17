@@ -16,9 +16,7 @@ _INVALID_I915_KMODS+=	${var}
 .endif
 
 .if ${I915KMODS:Mskylake}
-SUBDIR+=	skldmc_123 \
-		skldmc_126 \
-		skldmc_127 \
+SUBDIR+=	skldmc_127 \
 		sklguc_933 \
 		sklguc_3203 \
 		sklguc_3300 \
