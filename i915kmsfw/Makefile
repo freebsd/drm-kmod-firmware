@@ -91,11 +91,8 @@ SUBDIR+=	rkldmc_202 \
 
 .if ${I915KMODS:Malderlake}
 SUBDIR+=	adlpdmc \
-		adlpdmc_209 \
 		adlpdmc_210 \
 		adlpdmc_212 \
-		adlpdmc_214 \
-		adlpdmc_216 \
 		adlpguc_6203 \
 		adlpguc_6903 \
 		adlpguc_70 \
