@@ -30,7 +30,6 @@ SUBDIR+=	bxtdmc_107 \
 		bxtguc_3300 \
 		bxtguc_6200 \
 		bxthuc_107 \
-		bxthuc_108 \
 		bxthuc_200
 .endif
 
