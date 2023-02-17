@@ -62,12 +62,8 @@ SUBDIR+=	cnldmc_106 \
 .if ${I915KMODS:Micelake}
 SUBDIR+=	icldmc_107 \
 		icldmc_109 \
-		iclguc_3203 \
 		iclguc_3300 \
-		iclguc_4901 \
 		iclguc_6200 \
-		iclguc_6903 \
-		iclguc_7011 \
 		iclhuc_84 \
 		iclhuc_900
 .endif
