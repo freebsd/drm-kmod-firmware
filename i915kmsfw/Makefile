@@ -79,11 +79,7 @@ SUBDIR+=	tgldmc_204 \
 		tgldmc_208 \
 		tgldmc_212 \
 		tglguc_3520 \
-		tglguc_4901 \
 		tglguc_6200 \
-		tglguc_6903 \
-		tglguc_7011 \
-		tglhuc_7012 \
 		tglhuc_703 \
 		tglhuc_750 \
 		tglhuc_793
