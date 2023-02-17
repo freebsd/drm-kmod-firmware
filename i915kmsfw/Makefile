@@ -104,11 +104,7 @@ SUBDIR+=	mtldmc \
 
 .if ${I915KMODS:Mdg1}
 SUBDIR+=	dg1dmc_202 \
-		dg1guc_4901 \
 		dg1guc_6200 \
-		dg1guc_6903 \
-		dg1guc_70 \
-		dg1guc_7011 \
 		dg1huc \
 		dg1huc_771 \
 		dg1huc_793
