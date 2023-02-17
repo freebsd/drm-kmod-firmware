@@ -54,9 +54,7 @@ SUBDIR+=	glkdmc_104 \
 SUBDIR+=	cnldmc_106 \
 		cnldmc_107 \
 		cmlguc_3300 \
-		cmlguc_4901 \
 		cmlguc_6200 \
-		cmlguc_6903 \
 		cmlguc_7011 \
 		cmlhuc_400
 .endif
