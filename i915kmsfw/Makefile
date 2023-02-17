@@ -35,14 +35,9 @@ SUBDIR+=	bxtdmc_107 \
 
 .if ${I915KMODS:Mkabylake}
 SUBDIR+=	kbldmc_104 \
-		kblguc_914 \
 		kblguc_939 \
-		kblguc_3203 \
 		kblguc_3300 \
-		kblguc_4901 \
 		kblguc_6200 \
-		kblguc_6903 \
-		kblguc_7011 \
 		kblhuc_200 \
 		kblhuc_400
 .endif
