@@ -44,12 +44,8 @@ SUBDIR+=	kbldmc_104 \
 
 .if ${I915KMODS:Mgeminilake}
 SUBDIR+=	glkdmc_104 \
-		glkguc_3203 \
 		glkguc_3300 \
-		glkguc_4901 \
 		glkguc_6200 \
-		glkguc_6903 \
-		glkguc_7011 \
 		glkhuc_301 \
 		glkhuc_400
 .endif
