@@ -56,7 +56,7 @@ SUBDIR+=	glkdmc_104 \
 
 .if ${I915KMODS:Mcannonlake}
 SUBDIR+=	cnldmc_106 \
-		cnldmc_107 \
+		cnldmc_107
 .endif
 
 .if ${I915KMODS:Micelake}
