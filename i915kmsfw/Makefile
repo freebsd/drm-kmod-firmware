@@ -1,6 +1,6 @@
 # $FreeBSD$
 
-_VALID_I915KMODS=skylake broxton kabylake geminilake coffeelake \
+_VALID_I915KMODS=skylake broxton kabylake geminilake cannonlake \
 	icelake elkhartlake tigerlake rocketlake alderlake meteorlake \
 	dg1 dg2
 
@@ -39,7 +39,11 @@ SUBDIR+=	kbldmc_104 \
 		kblguc_3300 \
 		kblguc_6200 \
 		kblhuc_200 \
-		kblhuc_400
+		kblhuc_400 \
+		cmlguc_3300 \
+		cmlguc_6200 \
+		cmlguc_7011 \
+		cmlhuc_400
 .endif
 
 .if ${I915KMODS:Mgeminilake}
@@ -50,13 +54,9 @@ SUBDIR+=	glkdmc_104 \
 		glkhuc_400
 .endif
 
-.if ${I915KMODS:Mcoffeelake}
+.if ${I915KMODS:Mcannonlake}
 SUBDIR+=	cnldmc_106 \
 		cnldmc_107 \
-		cmlguc_3300 \
-		cmlguc_6200 \
-		cmlguc_7011 \
-		cmlhuc_400
 .endif
 
 .if ${I915KMODS:Micelake}
