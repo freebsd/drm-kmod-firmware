@@ -93,6 +93,7 @@ SUBDIR+=	rkldmc_202 \
 SUBDIR+=	adlpdmc \
 		adlpdmc_210 \
 		adlpdmc_212 \
+		adlpdmc_214 \
 		adlpguc_6203 \
 		adlsdmc_201
 .endif
