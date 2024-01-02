@@ -33,6 +33,7 @@ SUBDIR+=	bxtdmc_107 \
 SUBDIR+=	kbldmc_104 \
 		kblguc_3300 \
 		kblguc_6200 \
+		kblguc_7011 \
 		kblhuc_400 \
 		cmlguc_3300 \
 		cmlguc_6200 \
