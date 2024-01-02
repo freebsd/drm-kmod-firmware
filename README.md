@@ -19,19 +19,6 @@ building firmware kmods for loading into the FreeBSD kernel.
 Intel firmwares are versioned so we just import the needed ones.
 Since there is multiple drm-kmod version supported on the different
 version of FreeBSD we need different versions of the firmwares too.
-For v4.16 (Supported on FreeBSD 12.X) :
-
-DMC firmware : https://github.com/freebsd/drm-kmod/blob/4.16-fbsd12/drivers/gpu/drm/i915/intel_csr.c#L37
-
-GuC firmware : https://github.com/freebsd/drm-kmod/blob/4.16-fbsd12/drivers/gpu/drm/i915/intel_guc_fw.c#L33
-
-HuC firmware : https://github.com/freebsd/drm-kmod/blob/4.16-fbsd12/drivers/gpu/drm/i915/intel_huc.c#L45
-
-For 5.4-lts (Supported on FreeBSD 13.0 and above) :
-
-DMC firmware : https://github.com/freebsd/drm-kmod/blob/5.4-lts/drivers/gpu/drm/i915/intel_csr.c#L42
-
-GuC/HuC firmware : https://github.com/freebsd/drm-kmod/blob/5.4-lts/drivers/gpu/drm/i915/gt/uc/intel_uc_fw.c#L41
 
 For 5.10-lts (Supported on FreeBSD 13.1 and above) :
 
