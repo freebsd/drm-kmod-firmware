@@ -61,6 +61,9 @@ SUBDIR+=	ehlguc_3304 \
 SUBDIR+=	tgldmc_208 \
 		tgldmc_212 \
 		tglguc_3520 \
+		tglguc_6903 \
+		tglguc_7011 \
+		tglguc_70 \
 		tglhuc_750 \
 		tglhuc_793
 .endif
@@ -71,17 +74,21 @@ SUBDIR+=	rkldmc_202 \
 .endif
 
 .if ${I915KMODS:Malderlake}
-SUBDIR+=	adlsdmc_201
+SUBDIR+=	adlsdmc_201 \
+		adlpdmc_216 \
+		adlpguc_70
 .endif
 
 .if ${I915KMODS:Mdg1}
 SUBDIR+=	dg1dmc_202 \
 		dg1guc_6200 \
+		dg1guc_70 \
 		dg1huc
 .endif
 
 .if ${I915KMODS:Mdg2}
-SUBDIR+=	dg2dmc_207
+SUBDIR+=	dg2dmc_207 \
+		dg2guc_70
 .endif
 
 SUBDIR_PARALLEL=
