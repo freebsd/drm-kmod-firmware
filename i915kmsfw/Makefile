@@ -44,6 +44,7 @@ SUBDIR+=	kbldmc_104 \
 SUBDIR+=	glkdmc_104 \
 		glkguc_3300 \
 		glkguc_6200 \
+		glkguc_7011 \
 		glkhuc_400
 .endif
 
