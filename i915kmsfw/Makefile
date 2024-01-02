@@ -64,6 +64,7 @@ SUBDIR+=	icldmc_109 \
 .if ${I915KMODS:Melkhartlake}
 SUBDIR+=	ehlguc_3304 \
 		ehlguc_6200 \
+		ehlguc_7011 \
 		ehlhuc_900
 .endif
 
