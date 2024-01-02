@@ -57,6 +57,7 @@ SUBDIR+=	cnldmc_107
 SUBDIR+=	icldmc_109 \
 		iclguc_3300 \
 		iclguc_6200 \
+		iclguc_7011 \
 		iclhuc_900
 .endif
 
