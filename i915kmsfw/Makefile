@@ -18,20 +18,24 @@ _INVALID_I915_KMODS+=	${var}
 .if ${I915KMODS:Mskylake}
 SUBDIR+=	skldmc_127 \
 		sklguc_3300 \
+		sklguc_6200 \
 		sklhuc_200
 .endif
 
 .if ${I915KMODS:Mbroxton}
 SUBDIR+=	bxtdmc_107 \
 		bxtguc_3300 \
+		bxtguc_6200 \
 		bxthuc_200
 .endif
 
 .if ${I915KMODS:Mkabylake}
 SUBDIR+=	kbldmc_104 \
 		kblguc_3300 \
+		kblguc_6200 \
 		kblhuc_400 \
 		cmlguc_3300 \
+		cmlguc_6200 \
 		cmlguc_7011 \
 		cmlhuc_400
 .endif
@@ -39,6 +43,7 @@ SUBDIR+=	kbldmc_104 \
 .if ${I915KMODS:Mgeminilake}
 SUBDIR+=	glkdmc_104 \
 		glkguc_3300 \
+		glkguc_6200 \
 		glkhuc_400
 .endif
 
@@ -49,11 +54,13 @@ SUBDIR+=	cnldmc_107
 .if ${I915KMODS:Micelake}
 SUBDIR+=	icldmc_109 \
 		iclguc_3300 \
+		iclguc_6200 \
 		iclhuc_900
 .endif
 
 .if ${I915KMODS:Melkhartlake}
 SUBDIR+=	ehlguc_3304 \
+		ehlguc_6200 \
 		ehlhuc_900
 .endif
 
@@ -61,6 +68,7 @@ SUBDIR+=	ehlguc_3304 \
 SUBDIR+=	tgldmc_208 \
 		tgldmc_212 \
 		tglguc_3520 \
+		tglguc_6200 \
 		tglguc_6903 \
 		tglguc_7011 \
 		tglguc_70 \
@@ -77,6 +85,7 @@ SUBDIR+=	rkldmc_202 \
 SUBDIR+=	adlsdmc_201 \
 		adlpdmc_210 \
 		adlpdmc_216 \
+		adlpguc_6203 \
 		adlpguc_70
 .endif
 
