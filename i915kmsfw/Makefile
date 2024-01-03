@@ -76,6 +76,7 @@ SUBDIR+=	tgldmc_208 \
 		tglguc_6903 \
 		tglguc_7011 \
 		tglguc_70 \
+		tgl_huc \
 		tglhuc_750 \
 		tglhuc_793
 .endif
@@ -86,7 +87,8 @@ SUBDIR+=	rkldmc_202 \
 .endif
 
 .if ${I915KMODS:Malderlake}
-SUBDIR+=	adlsdmc_201 \
+SUBDIR+=	adlp_dmc \
+		adlsdmc_201 \
 		adlpdmc_210 \
 		adlpdmc_216 \
 		adlpguc_6203 \
