@@ -12,6 +12,13 @@ _VALID_AMDGPUKMODS=	aldebaran \
 			carrizo \
 			cyan_skillfish2 \
 			fiji \
+			gc_10_3_6 \
+			gc_10_3_7 \
+			gc_11_0_0 \
+			gc_11_0_1 \
+			gc_11_0_2 \
+			gc_11_0_3 \
+			gc_11_0_4 \
 			hainan \
 			hawaii \
 			kabini \
@@ -218,6 +225,78 @@ SUBDIR+=	fiji_ce		\
 		fiji_smc	\
 		fiji_uvd	\
 		fiji_vce
+.endif
+
+.if ${AMDGPUKMODS:Mgc_10_3_6}
+SUBDIR+=	gc_10_3_6_ce	\
+		gc_10_3_6_me	\
+		gc_10_3_6_mec	\
+		gc_10_3_6_mec2	\
+		gc_10_3_6_pfp	\
+		gc_10_3_6_rlc
+.endif
+
+.if ${AMDGPUKMODS:Mgc_10_3_7}
+SUBDIR+=	gc_10_3_7_ce	\
+		gc_10_3_7_me	\
+		gc_10_3_7_mec	\
+		gc_10_3_7_mec2	\
+		gc_10_3_7_pfp	\
+		gc_10_3_7_rlc
+.endif
+
+.if ${AMDGPUKMODS:Mgc_11_0_0}
+SUBDIR+=	gc_11_0_0_imu	\
+		gc_11_0_0_me	\
+		gc_11_0_0_mec	\
+		gc_11_0_0_mes	\
+		gc_11_0_0_mes1	\
+		gc_11_0_0_mes_2	\
+		gc_11_0_0_pfp	\
+		gc_11_0_0_rlc
+.endif
+
+.if ${AMDGPUKMODS:Mgc_11_0_1}
+SUBDIR+=	gc_11_0_1_imu	\
+		gc_11_0_1_me	\
+		gc_11_0_1_mec	\
+		gc_11_0_1_mes	\
+		gc_11_0_1_mes1	\
+		gc_11_0_1_mes_2	\
+		gc_11_0_1_pfp	\
+		gc_11_0_1_rlc
+.endif
+
+.if ${AMDGPUKMODS:Mgc_11_0_2}
+SUBDIR+=	gc_11_0_2_imu	\
+		gc_11_0_2_me	\
+		gc_11_0_2_mec	\
+		gc_11_0_2_mes	\
+		gc_11_0_2_mes1	\
+		gc_11_0_2_mes_2	\
+		gc_11_0_2_pfp	\
+		gc_11_0_2_rlc
+.endif
+
+.if ${AMDGPUKMODS:Mgc_11_0_3}
+SUBDIR+=	gc_11_0_3_imu	\
+		gc_11_0_3_me	\
+		gc_11_0_3_mec	\
+		gc_11_0_3_mes1	\
+		gc_11_0_3_mes_2	\
+		gc_11_0_3_pfp	\
+		gc_11_0_3_rlc
+.endif
+
+.if ${AMDGPUKMODS:Mgc_11_0_4}
+SUBDIR+=	gc_11_0_4_imu	\
+		gc_11_0_4_me	\
+		gc_11_0_4_mec	\
+		gc_11_0_4_mes	\
+		gc_11_0_4_mes1	\
+		gc_11_0_4_mes_2	\
+		gc_11_0_4_pfp	\
+		gc_11_0_4_rlc
 .endif
 
 .if ${AMDGPUKMODS:Mpolaris10}
