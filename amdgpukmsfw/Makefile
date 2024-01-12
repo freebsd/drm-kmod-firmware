@@ -11,6 +11,11 @@ _VALID_AMDGPUKMODS=	aldebaran \
 			bonaire \
 			carrizo \
 			cyan_skillfish2 \
+			dcn_3_1_4 \
+			dcn_3_1_5 \
+			dcn_3_1_6 \
+			dcn_3_2_0 \
+			dcn_3_2_1 \
 			fiji \
 			gc_10_3_6 \
 			gc_10_3_7 \
@@ -845,6 +850,26 @@ SUBDIR+=	vcn_4_0_2
 
 .if ${AMDGPUKMODS:Mvcn_4_0_4}
 SUBDIR+=	vcn_4_0_4
+.endif
+
+.if ${AMDGPUKMODS:Mdcn_3_1_4}
+SUBDIR+=	dcn_3_1_4_dmcub
+.endif
+
+.if ${AMDGPUKMODS:Mdcn_3_1_5}
+SUBDIR+=	dcn_3_1_5_dmcub
+.endif
+
+.if ${AMDGPUKMODS:Mdcn_3_1_6}
+SUBDIR+=	dcn_3_1_6_dmcub
+.endif
+
+.if ${AMDGPUKMODS:Mdcn_3_2_0}
+SUBDIR+=	dcn_3_2_0_dmcub
+.endif
+
+.if ${AMDGPUKMODS:Mdcn_3_2_1}
+SUBDIR+=	dcn_3_2_1_dmcub
 .endif
 
 SUBDIR_PARALLEL=
