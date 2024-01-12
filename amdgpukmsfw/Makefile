@@ -33,14 +33,34 @@ _VALID_AMDGPUKMODS=	aldebaran \
 			polaris10 \
 			polaris11 \
 			polaris12 \
+			psp_13_0_0 \
+			psp_13_0_4 \
+			psp_13_0_5 \
+			psp_13_0_7 \
+			psp_13_0_8 \
+			psp_13_0_10 \
+			psp_13_0_11 \
 			raven \
 			raven2 \
 			renoir \
+			sdma_5_2_6 \
+			sdma_5_2_7 \
+			sdma_6_0_0 \
+			sdma_6_0_1 \
+			sdma_6_0_3 \
+			sdma_6_0_4 \
 			si58 \
+			smu_13_0_0 \
+			smu_13_0_7 \
+			smu_13_0_10 \
 			stoney \
 			tahiti \
 			tonga \
 			topaz \
+			vcn_3_1_2 \
+			vcn_4_0_0 \
+			vcn_4_0_2 \
+			vcn_4_0_4 \
 			vega10 \
 			vega12 \
 			vega20 \
@@ -736,6 +756,95 @@ SUBDIR+=	yellow_carp_asd \
 		yellow_carp_ta \
 		yellow_carp_toc \
 		yellow_carp_vcn
+.endif
+
+.if ${AMDGPUKMODS:Mpsp_13_0_0}
+SUBDIR+=	psp_13_0_0_sos \
+		psp_13_0_0_ta
+.endif
+
+.if ${AMDGPUKMODS:Mpsp_13_0_4}
+SUBDIR+=	psp_13_0_4_ta \
+		psp_13_0_4_toc
+.endif
+
+.if ${AMDGPUKMODS:Mpsp_13_0_5}
+SUBDIR+=	psp_13_0_5_asd \
+		psp_13_0_5_ta \
+		psp_13_0_5_toc
+.endif
+
+.if ${AMDGPUKMODS:Mpsp_13_0_7}
+SUBDIR+=	psp_13_0_7_sos \
+		psp_13_0_7_ta
+.endif
+
+.if ${AMDGPUKMODS:Mpsp_13_0_8}
+SUBDIR+=	psp_13_0_8_asd \
+		psp_13_0_8_ta \
+		psp_13_0_8_toc
+.endif
+
+.if ${AMDGPUKMODS:Mpsp_13_0_10}
+SUBDIR+=	psp_13_0_10_sos \
+		psp_13_0_10_ta
+.endif
+
+.if ${AMDGPUKMODS:Mpsp_13_0_11}
+SUBDIR+=	psp_13_0_11_ta \
+		psp_13_0_11_toc
+.endif
+
+.if ${AMDGPUKMODS:Msdma_5_2_6}
+SUBDIR+=	sdma_5_2_6
+.endif
+
+.if ${AMDGPUKMODS:Msdma_5_2_7}
+SUBDIR+=	sdma_5_2_7
+.endif
+
+.if ${AMDGPUKMODS:Msdma_6_0_0}
+SUBDIR+=	sdma_6_0_0
+.endif
+
+.if ${AMDGPUKMODS:Msdma_6_0_1}
+SUBDIR+=	sdma_6_0_1
+.endif
+
+.if ${AMDGPUKMODS:Msdma_6_0_2}
+SUBDIR+=	sdma_6_0_2
+.endif
+
+.if ${AMDGPUKMODS:Msdma_6_0_3}
+SUBDIR+=	sdma_6_0_3
+.endif
+
+.if ${AMDGPUKMODS:Msmu_13_0_0}
+SUBDIR+=	smu_13_0_0
+.endif
+
+.if ${AMDGPUKMODS:Msmu_13_0_7}
+SUBDIR+=	smu_13_0_7
+.endif
+
+.if ${AMDGPUKMODS:Msmu_13_0_10}
+SUBDIR+=	smu_13_0_10
+.endif
+
+.if ${AMDGPUKMODS:Mvcn_3_1_2}
+SUBDIR+=	vcn_3_1_2
+.endif
+
+.if ${AMDGPUKMODS:Mvcn_4_0_0}
+SUBDIR+=	vcn_4_0_0
+.endif
+
+.if ${AMDGPUKMODS:Mvcn_4_0_2}
+SUBDIR+=	vcn_4_0_2
+.endif
+
+.if ${AMDGPUKMODS:Mvcn_4_0_4}
+SUBDIR+=	vcn_4_0_4
 .endif
 
 SUBDIR_PARALLEL=
