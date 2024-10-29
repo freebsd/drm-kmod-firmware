@@ -2,7 +2,7 @@
 
 _VALID_I915KMODS=skylake broxton kabylake geminilake cannonlake \
 	icelake elkhartlake tigerlake rocketlake alderlake \
-	dg1 dg2
+	dg1 dg2 meteorlake
 
 I915KMODS?=	${_VALID_I915KMODS}
 
@@ -105,6 +105,14 @@ SUBDIR+=	dg1dmc_202 \
 .if ${I915KMODS:Mdg2}
 SUBDIR+=	dg2dmc_207 \
 		dg2guc_70
+.endif
+
+.if ${I915KMODS:Mmeteorlake}
+SUBDIR+=	mtldmc_210 \
+		mtldmc \
+		mtlgsc_1 \
+		mtlguc_70 \
+		mtlhucgsc
 .endif
 
 SUBDIR_PARALLEL=
