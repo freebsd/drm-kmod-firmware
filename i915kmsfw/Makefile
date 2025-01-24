@@ -91,7 +91,9 @@ SUBDIR+=	adlpdmc \
 		adlpdmc_210 \
 		adlpdmc_216 \
 		adlpguc_6203 \
-		adlpguc_70
+		adlpguc_6903 \
+		adlpguc_70 \
+		adlpguc_7011
 .endif
 
 .if ${I915KMODS:Mdg1}
@@ -103,6 +105,7 @@ SUBDIR+=	dg1dmc_202 \
 
 .if ${I915KMODS:Mdg2}
 SUBDIR+=	dg2dmc_207 \
+		dg2dmc_208 \
 		dg2guc_70 \
 		dg2guc_7012 \
 		dg2guc_7041 \
