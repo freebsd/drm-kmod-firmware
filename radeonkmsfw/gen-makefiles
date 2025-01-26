@@ -5,8 +5,6 @@ set -e
 scriptdir=$(cd $(dirname $0) && pwd)
 fwdir=$scriptdir/../radeonkmsfw-files
 
-echo "FWDIR" $fwdir
-
 for dir in $scriptdir/*; do
 	if [ ! -d "$dir" ]; then
 		continue
