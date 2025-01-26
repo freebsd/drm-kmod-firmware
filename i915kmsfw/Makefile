@@ -1,5 +1,3 @@
-# $FreeBSD$
-
 _VALID_I915KMODS=skylake broxton kabylake geminilake cannonlake \
 	icelake elkhartlake tigerlake rocketlake alderlake \
 	dg1 dg2 meteorlake

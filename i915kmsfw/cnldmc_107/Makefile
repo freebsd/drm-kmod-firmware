@@ -1,5 +1,3 @@
-# $FreeBSD$
-
 NAME=		cnl_dmc
 VERSION=	1_07
 

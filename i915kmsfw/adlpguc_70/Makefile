@@ -1,5 +1,3 @@
-# $FreeBSD$
-
 NAME=		adlp_guc
 RAWVERSION=	70
 

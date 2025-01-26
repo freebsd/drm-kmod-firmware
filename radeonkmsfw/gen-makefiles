@@ -1,5 +1,4 @@
 #!/bin/sh
-# $FreeBSD$
 
 set -e
 
@@ -9,21 +8,19 @@ fwdir=$scriptdir/../radeonkmsfw-files
 echo "FWDIR" $fwdir
 
 for dir in $scriptdir/*; do
-	if [ ! -d $dir ]; then
+	if [ ! -d "$dir" ]; then
 		continue
 	fi
-	rm -rf $dir
+	rm -rf "$dir"
 done
 
-for file in $fwdir/*.uu; do
+for file in $fwdir/*.bin; do
 	base=$(basename $file)
-	img=${base%.bin.uu}
+	img=${base%.bin}
 	echo "Image: $img"
 
 	mkdir -p $scriptdir/$img
 	cat > $scriptdir/$img/Makefile <<EOF
-# \$FreeBSD$
-
 NAME=	$img
 
 .include <bsd.kmod.mk>

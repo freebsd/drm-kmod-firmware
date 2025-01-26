@@ -1,5 +1,3 @@
-# $FreeBSD$
-
 NAME=		icl_guc
 RAWVERSION=	33.0.0
 

@@ -1,5 +1,3 @@
-# $FreeBSD$
-
 NAME=		icl_dmc
 VERSION=	1_09
 

@@ -1,5 +1,3 @@
-# $FreeBSD$
-
 NAME=		icl_huc
 RAWVERSION=	9.0.0
 

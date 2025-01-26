@@ -1,5 +1,3 @@
-# $FreeBSD$
-
 NAME=		dg1_guc
 RAWVERSION=	70
 

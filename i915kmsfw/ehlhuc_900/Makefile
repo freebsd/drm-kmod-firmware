@@ -1,5 +1,3 @@
-# $FreeBSD$
-
 NAME=		ehl_huc
 RAWVERSION=	9.0.0
 

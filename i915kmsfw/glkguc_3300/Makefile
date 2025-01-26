@@ -1,5 +1,3 @@
-# $FreeBSD$
-
 NAME=		glk_guc
 RAWVERSION=	33.0.0
 

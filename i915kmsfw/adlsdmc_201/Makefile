@@ -1,5 +1,3 @@
-# $FreeBSD$
-
 NAME=		adls_dmc
 VERSION=	2_01
 

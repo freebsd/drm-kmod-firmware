@@ -1,5 +1,3 @@
-# $FreeBSD$
-
 NAME=		mtl_dmc
 RAWVERSION=
 

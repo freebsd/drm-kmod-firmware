@@ -1,5 +1,3 @@
-# $FreeBSD$
-
 NAME=		bxt_guc
 RAWVERSION=	62.0.0
 

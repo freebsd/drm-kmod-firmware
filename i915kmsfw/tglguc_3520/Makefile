@@ -1,5 +1,3 @@
-# $FreeBSD$
-
 NAME=		tgl_guc
 RAWVERSION=	35.2.0
 

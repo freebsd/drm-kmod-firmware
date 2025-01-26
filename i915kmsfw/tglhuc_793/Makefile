@@ -1,5 +1,3 @@
-# $FreeBSD$
-
 NAME=		tgl_huc
 RAWVERSION=	7.9.3
 
