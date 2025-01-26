@@ -1,5 +1,3 @@
-# $FreeBSD$
-
 NAME=		bxt_dmc
 VERSION=	1_07
 

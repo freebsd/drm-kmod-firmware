@@ -1,5 +1,3 @@
-# $FreeBSD$
-
 NAME=		kbl_dmc
 VERSION=	1_04
 

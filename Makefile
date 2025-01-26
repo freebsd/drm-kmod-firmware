@@ -1,5 +1,3 @@
-# $FreeBSD$
-
 SYSDIR?=/usr/src/sys
 .include "${SYSDIR}/conf/kern.opts.mk"
 

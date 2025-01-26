@@ -1,5 +1,3 @@
-# $FreeBSD$
-
 NAME=		ehl_guc
 RAWVERSION=	33.0.4
 

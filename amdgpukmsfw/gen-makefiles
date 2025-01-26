@@ -1,5 +1,4 @@
 #!/bin/sh
-# $FreeBSD$
 
 set -e
 
@@ -7,10 +6,10 @@ scriptdir=$(cd $(dirname $0) && pwd)
 fwdir=$scriptdir/../amdgpukmsfw-files
 
 for dir in $scriptdir/*; do
-	if [ ! -d $dir ]; then
+	if [ ! -d "$dir" ]; then
 		continue
 	fi
-	rm -rf $dir
+	rm -rf "$dir"
 done
 
 for file in $fwdir/*.bin; do
@@ -20,8 +19,6 @@ for file in $fwdir/*.bin; do
 
 	mkdir -p $scriptdir/$img
 	cat > $scriptdir/$img/Makefile <<EOF
-# \$FreeBSD$
-
 NAME=	$img
 
 .include <bsd.kmod.mk>

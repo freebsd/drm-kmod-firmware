@@ -1,5 +1,3 @@
-# $FreeBSD$
-
 .if !defined(OSVERSION)
 OSVERSION!=	awk '/^\#define[[:blank:]]__FreeBSD_version/ {print $$3}' ${SYSDIR}/sys/param.h 
 .endif

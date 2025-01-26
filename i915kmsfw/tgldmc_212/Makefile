@@ -1,5 +1,3 @@
-# $FreeBSD$
-
 NAME=		tgl_dmc
 VERSION=	2_12
 

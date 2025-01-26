@@ -1,5 +1,3 @@
-# $FreeBSD$
-
 _VALID_RADEONKMODS=	aruba \
 			barts \
 			bonaire \

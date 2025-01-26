@@ -1,5 +1,3 @@
-# $FreeBSD$
-
 NAME=		glk_dmc
 VERSION=	1_04
 

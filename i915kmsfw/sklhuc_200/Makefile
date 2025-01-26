@@ -1,5 +1,3 @@
-# $FreeBSD$
-
 NAME=		skl_huc
 RAWVERSION=	2.0.0
 
