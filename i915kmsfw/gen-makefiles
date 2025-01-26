@@ -1,0 +1,45 @@
+#!/bin/sh
+
+set -e
+
+scriptdir=$(cd $(dirname $0) && pwd)
+fwdir=$scriptdir/../i915kmsfw-files
+
+for dir in $scriptdir/*; do
+	if [ ! -d "$dir" ]; then
+		continue
+	fi
+	rm -rf "$dir"
+done
+
+for file in $fwdir/*.bin; do
+	base=$(basename $file)
+	img=${base%.bin}
+	echo "Image: $img"
+	name=$(echo "$img" | sed -E -e 's/[_.0-9]+$//' -e 's/_?ver$//')
+	vsn=${img#$name}
+	vsn=${vsn#_}
+	vsn=${vsn#ver}
+	echo "name=$name" "vsn=$vsn"
+
+	case "$img" in
+		*_ver*) vsnvar=VERSION ;;
+		*) vsnvar=RAWVERSION ;;
+	esac
+
+	dir="$(echo "$name" | sed 's/_//g')"
+	vsnval=''
+	if [ -n "$vsn" ]; then
+		dir="${dir}_$(echo "$vsn" | sed 's/[_.]//g')"
+		vsnval="	$vsn"
+	fi
+	echo "$dir"
+
+	mkdir -p "$scriptdir/$dir"
+	cat > "$scriptdir/$dir/Makefile" <<EOF
+NAME=		$name
+$vsnvar=$vsnval
+
+.include <bsd.kmod.mk>
+EOF
+done
