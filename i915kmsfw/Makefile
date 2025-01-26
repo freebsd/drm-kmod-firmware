@@ -32,6 +32,7 @@ SUBDIR+=	kbldmc_104 \
 		kblguc_3300 \
 		kblguc_6200 \
 		kblguc_7011 \
+		kblhuc_02001810 \
 		kblhuc_400 \
 		cmlguc_3300 \
 		cmlguc_6200 \
@@ -74,7 +75,7 @@ SUBDIR+=	tgldmc_208 \
 		tglguc_6903 \
 		tglguc_7011 \
 		tglguc_70 \
-		tgl_huc \
+		tglhuc \
 		tglhuc_750 \
 		tglhuc_793
 .endif
@@ -85,7 +86,7 @@ SUBDIR+=	rkldmc_202 \
 .endif
 
 .if ${I915KMODS:Malderlake}
-SUBDIR+=	adlp_dmc \
+SUBDIR+=	adlpdmc \
 		adlsdmc_201 \
 		adlpdmc_210 \
 		adlpdmc_216 \
@@ -102,7 +103,10 @@ SUBDIR+=	dg1dmc_202 \
 
 .if ${I915KMODS:Mdg2}
 SUBDIR+=	dg2dmc_207 \
-		dg2guc_70
+		dg2guc_70 \
+		dg2guc_7012 \
+		dg2guc_7041 \
+		dg2hucgsc
 .endif
 
 .if ${I915KMODS:Mmeteorlake}

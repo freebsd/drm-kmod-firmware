@@ -1,4 +1,4 @@
-NAME=           mtl_gsc
-RAWVERSION=     1
+NAME=		mtl_gsc
+RAWVERSION=	1
 
 .include <bsd.kmod.mk>
