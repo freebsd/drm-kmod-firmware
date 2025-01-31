@@ -52,7 +52,6 @@ _VALID_AMDGPUKMODS=	aldebaran \
 			sdma_6_0_1 \
 			sdma_6_0_2 \
 			sdma_6_0_3 \
-			sdma_6_0_4 \
 			si58 \
 			smu_13_0_0 \
 			smu_13_0_7 \
