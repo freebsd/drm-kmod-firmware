@@ -38,5 +38,11 @@ DMC firmware : https://github.com/freebsd/drm-kmod/blob/6.1-lts/drivers/gpu/drm/
 
 GuC/HuC firmware : https://github.com/freebsd/drm-kmod/blob/6.1-lts/drivers/gpu/drm/i915/gt/uc/intel_uc_fw.c#L50
 
+For 6.6-lts (Supported on FreeBSD 15.0 and above) :
+
+DMC firmware : https://github.com/freebsd/drm-kmod/blob/6.6-lts/drivers/gpu/drm/i915/display/intel_dmc.c#L96
+
+GuC/HuC firmware : https://github.com/freebsd/drm-kmod/blob/6.6-lts/drivers/gpu/drm/i915/gt/uc/intel_uc_fw.c#L90
+
 Download the firmware from the git repo above and do one commit related to the drm-kmod version bump.
 So if upgrading to drm vX.Y needs three new firmware for different Intel hardware do one commit for the three.
