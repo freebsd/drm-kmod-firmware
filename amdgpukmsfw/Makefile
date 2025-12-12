@@ -15,8 +15,8 @@ _VALID_AMDGPUKMODS=	aldebaran \
 			dcn_3_2_0 \
 			dcn_3_2_1 \
 			dcn_3_5 \
+			dimgrey_cavefish \
 			fiji \
-			gc_9_4_3 \
 			gc_10_3_6 \
 			gc_10_3_7 \
 			gc_11_0_0 \
@@ -25,6 +25,8 @@ _VALID_AMDGPUKMODS=	aldebaran \
 			gc_11_0_3 \
 			gc_11_0_4 \
 			gc_11_5_0 \
+			gc_9_4_3 \
+			green_sardine \
 			hainan \
 			hawaii \
 			kabini \
@@ -33,6 +35,7 @@ _VALID_AMDGPUKMODS=	aldebaran \
 			navi10 \
 			navi12 \
 			navi14 \
+			navy_flounder \
 			oland \
 			picasso \
 			pitcairn \
@@ -40,13 +43,13 @@ _VALID_AMDGPUKMODS=	aldebaran \
 			polaris11 \
 			polaris12 \
 			psp_13_0_0 \
+			psp_13_0_10 \
+			psp_13_0_11 \
 			psp_13_0_4 \
 			psp_13_0_5 \
 			psp_13_0_6 \
 			psp_13_0_7 \
 			psp_13_0_8 \
-			psp_13_0_10 \
-			psp_13_0_11 \
 			psp_14_0_0 \
 			raven \
 			raven2 \
@@ -60,15 +63,17 @@ _VALID_AMDGPUKMODS=	aldebaran \
 			sdma_6_0_3 \
 			sdma_6_1_0 \
 			si58 \
+			sienna_cichlid \
 			smu_13_0_0 \
+			smu_13_0_10 \
 			smu_13_0_6 \
 			smu_13_0_7 \
-			smu_13_0_10 \
 			smu_14_0_2 \
 			stoney \
 			tahiti \
 			tonga \
 			topaz \
+			vangogh \
 			vcn_3_1_2 \
 			vcn_4_0_0 \
 			vcn_4_0_2 \
@@ -82,14 +87,6 @@ _VALID_AMDGPUKMODS=	aldebaran \
 			verde \
 			vpe_6_1_0 \
 			yellow_carp
-
-.if ${OSVERSION} >= 1301000
-_VALID_AMDGPUKMODS+=	dimgrey_cavefish \
-			green_sardine \
-			sienna_cichlid \
-			navy_flounder \
-			vangogh
-.endif
 
 AMDGPUKMODS?=	${_VALID_AMDGPUKMODS}
 
