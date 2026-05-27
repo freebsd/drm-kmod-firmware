@@ -17,6 +17,7 @@ _INVALID_I915_KMODS+=	${var}
 SUBDIR+=	skldmc_127 \
 		sklguc_3300 \
 		sklguc_6200 \
+		sklguc_7011 \
 		sklhuc_200
 .endif
 
@@ -24,6 +25,7 @@ SUBDIR+=	skldmc_127 \
 SUBDIR+=	bxtdmc_107 \
 		bxtguc_3300 \
 		bxtguc_6200 \
+		bxtguc_7011 \
 		bxthuc_200
 .endif
 
